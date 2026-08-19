@@ -1,0 +1,3970 @@
+[
+  {
+    "id": "ryzen-9-9950x",
+    "name": "AMD Ryzen 9 9950X",
+    "shortName": "Ryzen 9 9950X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 5",
+    "releaseYear": 2024,
+    "cores": 16,
+    "threads": 32,
+    "baseClock": "4.3 GHz",
+    "boostClock": "5.7 GHz",
+    "cache": "80 MB",
+    "tdp": 170,
+    "socket": "AM5",
+    "processNode": "4 nm",
+    "integratedGraphics": true,
+    "msrp": 649,
+    "scores": {
+      "overall": 100,
+      "multiCore": 100,
+      "singleCore": 100
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 42500,
+      "cinebenchR23Single": 2350
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "threadripper-7980x",
+    "name": "AMD Ryzen Threadripper 7980X",
+    "shortName": "TR 7980X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4",
+    "releaseYear": 2023,
+    "cores": 64,
+    "threads": 128,
+    "baseClock": "3.2 GHz",
+    "boostClock": "5.1 GHz",
+    "cache": "320 MB",
+    "tdp": 350,
+    "socket": "sTR5",
+    "processNode": "5 nm",
+    "integratedGraphics": false,
+    "msrp": 4999,
+    "scores": {
+      "overall": 100,
+      "multiCore": 100,
+      "singleCore": 80
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 98000,
+      "cinebenchR23Single": 1890
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "threadripper-3990x",
+    "name": "AMD Ryzen Threadripper 3990X",
+    "shortName": "TR 3990X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 2",
+    "releaseYear": 2020,
+    "cores": 64,
+    "threads": 128,
+    "baseClock": "2.9 GHz",
+    "boostClock": "4.3 GHz",
+    "cache": "288 MB",
+    "tdp": 280,
+    "socket": "sTRX4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 3990,
+    "scores": {
+      "overall": 100,
+      "multiCore": 100,
+      "singleCore": 52
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 64000,
+      "cinebenchR23Single": 1220
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "core-ultra-9-285k",
+    "name": "Intel Core Ultra 9 285K",
+    "shortName": "Core Ultra 9 285K",
+    "manufacturer": "Intel",
+    "architecture": "Arrow Lake",
+    "releaseYear": 2024,
+    "cores": 24,
+    "threads": 24,
+    "baseClock": "3.7 GHz",
+    "boostClock": "5.7 GHz",
+    "cache": "76 MB",
+    "tdp": 125,
+    "socket": "LGA 1851",
+    "processNode": "3 nm",
+    "integratedGraphics": true,
+    "msrp": 589,
+    "scores": {
+      "overall": 99,
+      "multiCore": 99,
+      "singleCore": 99
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 42000,
+      "cinebenchR23Single": 2320
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "i9-14900k",
+    "name": "Intel Core i9-14900K",
+    "shortName": "i9-14900K",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2023,
+    "cores": 24,
+    "threads": 32,
+    "baseClock": "3.2 GHz",
+    "boostClock": "6.0 GHz",
+    "cache": "68 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 589,
+    "scores": {
+      "overall": 97,
+      "multiCore": 96,
+      "singleCore": 98
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 40800,
+      "cinebenchR23Single": 2310
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "i9-14900kf",
+    "name": "Intel Core i9-14900KF",
+    "shortName": "i9-14900KF",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2023,
+    "cores": 24,
+    "threads": 32,
+    "baseClock": "3.2 GHz",
+    "boostClock": "6.0 GHz",
+    "cache": "68 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 564,
+    "scores": {
+      "overall": 96,
+      "multiCore": 95,
+      "singleCore": 98
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 40500,
+      "cinebenchR23Single": 2300
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "i9-13900k",
+    "name": "Intel Core i9-13900K",
+    "shortName": "i9-13900K",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2022,
+    "cores": 24,
+    "threads": 32,
+    "baseClock": "3.0 GHz",
+    "boostClock": "5.8 GHz",
+    "cache": "68 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 589,
+    "scores": {
+      "overall": 94,
+      "multiCore": 94,
+      "singleCore": 95
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 39800,
+      "cinebenchR23Single": 2240
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i9-13900kf",
+    "name": "Intel Core i9-13900KF",
+    "shortName": "i9-13900KF",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2022,
+    "cores": 24,
+    "threads": 32,
+    "baseClock": "3.0 GHz",
+    "boostClock": "5.8 GHz",
+    "cache": "68 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 564,
+    "scores": {
+      "overall": 94,
+      "multiCore": 93,
+      "singleCore": 95
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 39500,
+      "cinebenchR23Single": 2235
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "core-ultra-7-265k",
+    "name": "Intel Core Ultra 7 265K",
+    "shortName": "Core Ultra 7 265K",
+    "manufacturer": "Intel",
+    "architecture": "Arrow Lake",
+    "releaseYear": 2024,
+    "cores": 20,
+    "threads": 20,
+    "baseClock": "3.9 GHz",
+    "boostClock": "5.5 GHz",
+    "cache": "66 MB",
+    "tdp": 125,
+    "socket": "LGA 1851",
+    "processNode": "3 nm",
+    "integratedGraphics": true,
+    "msrp": 394,
+    "scores": {
+      "overall": 89,
+      "multiCore": 85,
+      "singleCore": 97
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 36000,
+      "cinebenchR23Single": 2280
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "ryzen-9-7950x",
+    "name": "AMD Ryzen 9 7950X",
+    "shortName": "Ryzen 9 7950X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4",
+    "releaseYear": 2022,
+    "cores": 16,
+    "threads": 32,
+    "baseClock": "4.5 GHz",
+    "boostClock": "5.7 GHz",
+    "cache": "80 MB",
+    "tdp": 170,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": true,
+    "msrp": 699,
+    "scores": {
+      "overall": 89,
+      "multiCore": 90,
+      "singleCore": 88
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 38200,
+      "cinebenchR23Single": 2070
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i7-14700k",
+    "name": "Intel Core i7-14700K",
+    "shortName": "i7-14700K",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2023,
+    "cores": 20,
+    "threads": 28,
+    "baseClock": "3.4 GHz",
+    "boostClock": "5.6 GHz",
+    "cache": "61 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 409,
+    "scores": {
+      "overall": 86,
+      "multiCore": 82,
+      "singleCore": 93
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 34800,
+      "cinebenchR23Single": 2190
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "ryzen-9-9900x",
+    "name": "AMD Ryzen 9 9900X",
+    "shortName": "Ryzen 9 9900X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 5",
+    "releaseYear": 2024,
+    "cores": 12,
+    "threads": 24,
+    "baseClock": "4.4 GHz",
+    "boostClock": "5.6 GHz",
+    "cache": "76 MB",
+    "tdp": 120,
+    "socket": "AM5",
+    "processNode": "4 nm",
+    "integratedGraphics": true,
+    "msrp": 499,
+    "scores": {
+      "overall": 86,
+      "multiCore": 79,
+      "singleCore": 98
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 33500,
+      "cinebenchR23Single": 2310
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "ryzen-9-7950x3d",
+    "name": "AMD Ryzen 9 7950X3D",
+    "shortName": "Ryzen 9 7950X3D",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4 3D-V",
+    "releaseYear": 2023,
+    "cores": 16,
+    "threads": 32,
+    "baseClock": "4.2 GHz",
+    "boostClock": "5.7 GHz",
+    "cache": "144 MB",
+    "tdp": 120,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": true,
+    "msrp": 699,
+    "scores": {
+      "overall": 86,
+      "multiCore": 85,
+      "singleCore": 88
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 36200,
+      "cinebenchR23Single": 2060
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "i7-14700kf",
+    "name": "Intel Core i7-14700KF",
+    "shortName": "i7-14700KF",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2023,
+    "cores": 20,
+    "threads": 28,
+    "baseClock": "3.4 GHz",
+    "boostClock": "5.6 GHz",
+    "cache": "61 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 384,
+    "scores": {
+      "overall": 85,
+      "multiCore": 81,
+      "singleCore": 93
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 34600,
+      "cinebenchR23Single": 2185
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "i7-13700k",
+    "name": "Intel Core i7-13700K",
+    "shortName": "i7-13700K",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2022,
+    "cores": 16,
+    "threads": 24,
+    "baseClock": "3.4 GHz",
+    "boostClock": "5.4 GHz",
+    "cache": "54 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 409,
+    "scores": {
+      "overall": 79,
+      "multiCore": 72,
+      "singleCore": 90
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 30800,
+      "cinebenchR23Single": 2110
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i7-13700kf",
+    "name": "Intel Core i7-13700KF",
+    "shortName": "i7-13700KF",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2022,
+    "cores": 16,
+    "threads": 24,
+    "baseClock": "3.4 GHz",
+    "boostClock": "5.4 GHz",
+    "cache": "54 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 384,
+    "scores": {
+      "overall": 78,
+      "multiCore": 72,
+      "singleCore": 89
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 30600,
+      "cinebenchR23Single": 2100
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "ryzen-9-7900x",
+    "name": "AMD Ryzen 9 7900X",
+    "shortName": "Ryzen 9 7900X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4",
+    "releaseYear": 2022,
+    "cores": 12,
+    "threads": 24,
+    "baseClock": "4.7 GHz",
+    "boostClock": "5.6 GHz",
+    "cache": "76 MB",
+    "tdp": 170,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": true,
+    "msrp": 549,
+    "scores": {
+      "overall": 76,
+      "multiCore": 69,
+      "singleCore": 87
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 29500,
+      "cinebenchR23Single": 2050
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "core-ultra-5-245k",
+    "name": "Intel Core Ultra 5 245K",
+    "shortName": "Core Ultra 5 245K",
+    "manufacturer": "Intel",
+    "architecture": "Arrow Lake",
+    "releaseYear": 2024,
+    "cores": 14,
+    "threads": 14,
+    "baseClock": "4.2 GHz",
+    "boostClock": "5.2 GHz",
+    "cache": "50 MB",
+    "tdp": 125,
+    "socket": "LGA 1851",
+    "processNode": "3 nm",
+    "integratedGraphics": true,
+    "msrp": 309,
+    "scores": {
+      "overall": 71,
+      "multiCore": 60,
+      "singleCore": 93
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 25500,
+      "cinebenchR23Single": 2180
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "i9-12900k",
+    "name": "Intel Core i9-12900K",
+    "shortName": "i9-12900K",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2021,
+    "cores": 16,
+    "threads": 24,
+    "baseClock": "3.2 GHz",
+    "boostClock": "5.2 GHz",
+    "cache": "44 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 589,
+    "scores": {
+      "overall": 71,
+      "multiCore": 64,
+      "singleCore": 84
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 27400,
+      "cinebenchR23Single": 1980
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "i9-12900kf",
+    "name": "Intel Core i9-12900KF",
+    "shortName": "i9-12900KF",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2021,
+    "cores": 16,
+    "threads": 24,
+    "baseClock": "3.2 GHz",
+    "boostClock": "5.2 GHz",
+    "cache": "44 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 564,
+    "scores": {
+      "overall": 71,
+      "multiCore": 64,
+      "singleCore": 84
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 27200,
+      "cinebenchR23Single": 1975
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "ryzen-7-9800x3d",
+    "name": "AMD Ryzen 7 9800X3D",
+    "shortName": "Ryzen 7 9800X3D",
+    "manufacturer": "AMD",
+    "architecture": "Zen 5 3D-V",
+    "releaseYear": 2024,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "4.7 GHz",
+    "boostClock": "5.2 GHz",
+    "cache": "104 MB",
+    "tdp": 120,
+    "socket": "AM5",
+    "processNode": "4 nm",
+    "integratedGraphics": true,
+    "msrp": 479,
+    "scores": {
+      "overall": 69,
+      "multiCore": 55,
+      "singleCore": 94
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 23500,
+      "cinebenchR23Single": 2210
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "i5-14600k",
+    "name": "Intel Core i5-14600K",
+    "shortName": "i5-14600K",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2023,
+    "cores": 14,
+    "threads": 20,
+    "baseClock": "3.5 GHz",
+    "boostClock": "5.3 GHz",
+    "cache": "44 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 319,
+    "scores": {
+      "overall": 68,
+      "multiCore": 57,
+      "singleCore": 88
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 24200,
+      "cinebenchR23Single": 2070
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "i5-14600kf",
+    "name": "Intel Core i5-14600KF",
+    "shortName": "i5-14600KF",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2023,
+    "cores": 14,
+    "threads": 20,
+    "baseClock": "3.5 GHz",
+    "boostClock": "5.3 GHz",
+    "cache": "44 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 294,
+    "scores": {
+      "overall": 68,
+      "multiCore": 57,
+      "singleCore": 88
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 24100,
+      "cinebenchR23Single": 2065
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "ryzen-7-9700x",
+    "name": "AMD Ryzen 7 9700X",
+    "shortName": "Ryzen 7 9700X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 5",
+    "releaseYear": 2024,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.8 GHz",
+    "boostClock": "5.5 GHz",
+    "cache": "40 MB",
+    "tdp": 65,
+    "socket": "AM5",
+    "processNode": "4 nm",
+    "integratedGraphics": true,
+    "msrp": 359,
+    "scores": {
+      "overall": 68,
+      "multiCore": 54,
+      "singleCore": 95
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 22800,
+      "cinebenchR23Single": 2240
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "ryzen-9-7900",
+    "name": "AMD Ryzen 9 7900",
+    "shortName": "Ryzen 9 7900",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4",
+    "releaseYear": 2023,
+    "cores": 12,
+    "threads": 24,
+    "baseClock": "3.7 GHz",
+    "boostClock": "5.4 GHz",
+    "cache": "76 MB",
+    "tdp": 65,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": true,
+    "msrp": 429,
+    "scores": {
+      "overall": 68,
+      "multiCore": 59,
+      "singleCore": 86
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 25200,
+      "cinebenchR23Single": 2010
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "ryzen-9-5950x",
+    "name": "AMD Ryzen 9 5950X",
+    "shortName": "Ryzen 9 5950X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 3",
+    "releaseYear": 2020,
+    "cores": 16,
+    "threads": 32,
+    "baseClock": "3.4 GHz",
+    "boostClock": "4.9 GHz",
+    "cache": "72 MB",
+    "tdp": 105,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 799,
+    "scores": {
+      "overall": 68,
+      "multiCore": 67,
+      "singleCore": 70
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 28600,
+      "cinebenchR23Single": 1640
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "i5-13600k",
+    "name": "Intel Core i5-13600K",
+    "shortName": "i5-13600K",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2022,
+    "cores": 14,
+    "threads": 20,
+    "baseClock": "3.5 GHz",
+    "boostClock": "5.1 GHz",
+    "cache": "44 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 319,
+    "scores": {
+      "overall": 66,
+      "multiCore": 56,
+      "singleCore": 86
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 23800,
+      "cinebenchR23Single": 2010
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i5-13600kf",
+    "name": "Intel Core i5-13600KF",
+    "shortName": "i5-13600KF",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2022,
+    "cores": 14,
+    "threads": 20,
+    "baseClock": "3.5 GHz",
+    "boostClock": "5.1 GHz",
+    "cache": "44 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 294,
+    "scores": {
+      "overall": 66,
+      "multiCore": 56,
+      "singleCore": 85
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 23600,
+      "cinebenchR23Single": 2000
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i7-12700k",
+    "name": "Intel Core i7-12700K",
+    "shortName": "i7-12700K",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2021,
+    "cores": 12,
+    "threads": 20,
+    "baseClock": "3.6 GHz",
+    "boostClock": "5.0 GHz",
+    "cache": "38 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 409,
+    "scores": {
+      "overall": 63,
+      "multiCore": 54,
+      "singleCore": 81
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 22800,
+      "cinebenchR23Single": 1910
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "i7-12700kf",
+    "name": "Intel Core i7-12700KF",
+    "shortName": "i7-12700KF",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2021,
+    "cores": 12,
+    "threads": 20,
+    "baseClock": "3.6 GHz",
+    "boostClock": "5.0 GHz",
+    "cache": "38 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 384,
+    "scores": {
+      "overall": 63,
+      "multiCore": 53,
+      "singleCore": 81
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 22600,
+      "cinebenchR23Single": 1905
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "i5-14500",
+    "name": "Intel Core i5-14500",
+    "shortName": "i5-14500",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2024,
+    "cores": 14,
+    "threads": 20,
+    "baseClock": "2.6 GHz",
+    "boostClock": "5.0 GHz",
+    "cache": "38.5 MB",
+    "tdp": 65,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 232,
+    "scores": {
+      "overall": 61,
+      "multiCore": 49,
+      "singleCore": 83
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 21000,
+      "cinebenchR23Single": 1950
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "i5-13500",
+    "name": "Intel Core i5-13500",
+    "shortName": "i5-13500",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2023,
+    "cores": 14,
+    "threads": 20,
+    "baseClock": "2.5 GHz",
+    "boostClock": "4.8 GHz",
+    "cache": "38.5 MB",
+    "tdp": 65,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 232,
+    "scores": {
+      "overall": 60,
+      "multiCore": 49,
+      "singleCore": 81
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 20800,
+      "cinebenchR23Single": 1910
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "ryzen-7-7700x",
+    "name": "AMD Ryzen 7 7700X",
+    "shortName": "Ryzen 7 7700X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4",
+    "releaseYear": 2022,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "4.5 GHz",
+    "boostClock": "5.4 GHz",
+    "cache": "40 MB",
+    "tdp": 105,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": true,
+    "msrp": 399,
+    "scores": {
+      "overall": 60,
+      "multiCore": 47,
+      "singleCore": 84
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 19800,
+      "cinebenchR23Single": 1980
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "ryzen-5-9600x",
+    "name": "AMD Ryzen 5 9600X",
+    "shortName": "Ryzen 5 9600X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 5",
+    "releaseYear": 2024,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.9 GHz",
+    "boostClock": "5.4 GHz",
+    "cache": "38 MB",
+    "tdp": 65,
+    "socket": "AM5",
+    "processNode": "4 nm",
+    "integratedGraphics": true,
+    "msrp": 279,
+    "scores": {
+      "overall": 59,
+      "multiCore": 40,
+      "singleCore": 93
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 17200,
+      "cinebenchR23Single": 2190
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "ryzen-7-7700",
+    "name": "AMD Ryzen 7 7700",
+    "shortName": "Ryzen 7 7700",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4",
+    "releaseYear": 2023,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.8 GHz",
+    "boostClock": "5.3 GHz",
+    "cache": "40 MB",
+    "tdp": 65,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": true,
+    "msrp": 329,
+    "scores": {
+      "overall": 57,
+      "multiCore": 44,
+      "singleCore": 83
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 18600,
+      "cinebenchR23Single": 1940
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "ryzen-9-5900x",
+    "name": "AMD Ryzen 9 5900X",
+    "shortName": "Ryzen 9 5900X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 3",
+    "releaseYear": 2020,
+    "cores": 12,
+    "threads": 24,
+    "baseClock": "3.7 GHz",
+    "boostClock": "4.8 GHz",
+    "cache": "70 MB",
+    "tdp": 105,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 549,
+    "scores": {
+      "overall": 57,
+      "multiCore": 51,
+      "singleCore": 69
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 21800,
+      "cinebenchR23Single": 1610
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "ryzen-7-7800x3d",
+    "name": "AMD Ryzen 7 7800X3D",
+    "shortName": "Ryzen 7 7800X3D",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4 3D-V",
+    "releaseYear": 2023,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "4.2 GHz",
+    "boostClock": "5.0 GHz",
+    "cache": "104 MB",
+    "tdp": 120,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": true,
+    "msrp": 449,
+    "scores": {
+      "overall": 55,
+      "multiCore": 43,
+      "singleCore": 77
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 18200,
+      "cinebenchR23Single": 1810
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "ryzen-9-3950x",
+    "name": "AMD Ryzen 9 3950X",
+    "shortName": "Ryzen 9 3950X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 2",
+    "releaseYear": 2019,
+    "cores": 16,
+    "threads": 32,
+    "baseClock": "3.5 GHz",
+    "boostClock": "4.7 GHz",
+    "cache": "72 MB",
+    "tdp": 105,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 749,
+    "scores": {
+      "overall": 55,
+      "multiCore": 55,
+      "singleCore": 56
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 23400,
+      "cinebenchR23Single": 1310
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2019-01"
+    }
+  },
+  {
+    "id": "i5-12600k",
+    "name": "Intel Core i5-12600K",
+    "shortName": "i5-12600K",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2021,
+    "cores": 10,
+    "threads": 16,
+    "baseClock": "3.7 GHz",
+    "boostClock": "4.9 GHz",
+    "cache": "29.5 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 289,
+    "scores": {
+      "overall": 54,
+      "multiCore": 41,
+      "singleCore": 79
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 17500,
+      "cinebenchR23Single": 1850
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "i5-12600kf",
+    "name": "Intel Core i5-12600KF",
+    "shortName": "i5-12600KF",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2021,
+    "cores": 10,
+    "threads": 16,
+    "baseClock": "3.7 GHz",
+    "boostClock": "4.9 GHz",
+    "cache": "29.5 MB",
+    "tdp": 125,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 264,
+    "scores": {
+      "overall": 54,
+      "multiCore": 41,
+      "singleCore": 79
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 17400,
+      "cinebenchR23Single": 1845
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "i5-14400",
+    "name": "Intel Core i5-14400",
+    "shortName": "i5-14400",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2024,
+    "cores": 10,
+    "threads": 16,
+    "baseClock": "2.5 GHz",
+    "boostClock": "4.7 GHz",
+    "cache": "29.5 MB",
+    "tdp": 65,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 221,
+    "scores": {
+      "overall": 52,
+      "multiCore": 38,
+      "singleCore": 78
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 16100,
+      "cinebenchR23Single": 1840
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "i5-14400f",
+    "name": "Intel Core i5-14400F",
+    "shortName": "i5-14400F",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2024,
+    "cores": 10,
+    "threads": 16,
+    "baseClock": "2.5 GHz",
+    "boostClock": "4.7 GHz",
+    "cache": "29.5 MB",
+    "tdp": 65,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 196,
+    "scores": {
+      "overall": 52,
+      "multiCore": 38,
+      "singleCore": 78
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 16000,
+      "cinebenchR23Single": 1835
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "ryzen-5-7600x",
+    "name": "AMD Ryzen 5 7600X",
+    "shortName": "Ryzen 5 7600X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4",
+    "releaseYear": 2022,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "4.7 GHz",
+    "boostClock": "5.3 GHz",
+    "cache": "38 MB",
+    "tdp": 105,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": true,
+    "msrp": 299,
+    "scores": {
+      "overall": 52,
+      "multiCore": 35,
+      "singleCore": 83
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 14800,
+      "cinebenchR23Single": 1950
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i5-13400",
+    "name": "Intel Core i5-13400",
+    "shortName": "i5-13400",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2023,
+    "cores": 10,
+    "threads": 16,
+    "baseClock": "2.5 GHz",
+    "boostClock": "4.6 GHz",
+    "cache": "29.5 MB",
+    "tdp": 65,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 221,
+    "scores": {
+      "overall": 51,
+      "multiCore": 37,
+      "singleCore": 77
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 15600,
+      "cinebenchR23Single": 1800
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "i5-13400f",
+    "name": "Intel Core i5-13400F",
+    "shortName": "i5-13400F",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2023,
+    "cores": 10,
+    "threads": 16,
+    "baseClock": "2.5 GHz",
+    "boostClock": "4.6 GHz",
+    "cache": "29.5 MB",
+    "tdp": 65,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 196,
+    "scores": {
+      "overall": 50,
+      "multiCore": 36,
+      "singleCore": 76
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 15500,
+      "cinebenchR23Single": 1795
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "ryzen-5-7600",
+    "name": "AMD Ryzen 5 7600",
+    "shortName": "Ryzen 5 7600",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4",
+    "releaseYear": 2023,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.8 GHz",
+    "boostClock": "5.1 GHz",
+    "cache": "38 MB",
+    "tdp": 65,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": true,
+    "msrp": 229,
+    "scores": {
+      "overall": 49,
+      "multiCore": 33,
+      "singleCore": 80
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 13900,
+      "cinebenchR23Single": 1880
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "ryzen-5-7500f",
+    "name": "AMD Ryzen 5 7500F",
+    "shortName": "Ryzen 5 7500F",
+    "manufacturer": "AMD",
+    "architecture": "Zen 4",
+    "releaseYear": 2023,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.7 GHz",
+    "boostClock": "5.0 GHz",
+    "cache": "38 MB",
+    "tdp": 65,
+    "socket": "AM5",
+    "processNode": "5 nm",
+    "integratedGraphics": false,
+    "msrp": 179,
+    "scores": {
+      "overall": 48,
+      "multiCore": 32,
+      "singleCore": 78
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 13600,
+      "cinebenchR23Single": 1840
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "ryzen-9-3900x",
+    "name": "AMD Ryzen 9 3900X",
+    "shortName": "Ryzen 9 3900X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 2",
+    "releaseYear": 2019,
+    "cores": 12,
+    "threads": 24,
+    "baseClock": "3.8 GHz",
+    "boostClock": "4.6 GHz",
+    "cache": "70 MB",
+    "tdp": 105,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 499,
+    "scores": {
+      "overall": 48,
+      "multiCore": 44,
+      "singleCore": 55
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 18500,
+      "cinebenchR23Single": 1290
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2019-01"
+    }
+  },
+  {
+    "id": "i9-11900k",
+    "name": "Intel Core i9-11900K",
+    "shortName": "i9-11900K",
+    "manufacturer": "Intel",
+    "architecture": "Rocket Lake",
+    "releaseYear": 2021,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.5 GHz",
+    "boostClock": "5.3 GHz",
+    "cache": "16 MB",
+    "tdp": 125,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 539,
+    "scores": {
+      "overall": 47,
+      "multiCore": 36,
+      "singleCore": 69
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 15200,
+      "cinebenchR23Single": 1620
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "i9-10900k",
+    "name": "Intel Core i9-10900K",
+    "shortName": "i9-10900K",
+    "manufacturer": "Intel",
+    "architecture": "Comet Lake",
+    "releaseYear": 2020,
+    "cores": 10,
+    "threads": 20,
+    "baseClock": "3.7 GHz",
+    "boostClock": "5.3 GHz",
+    "cache": "20 MB",
+    "tdp": 125,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 488,
+    "scores": {
+      "overall": 47,
+      "multiCore": 39,
+      "singleCore": 61
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 16500,
+      "cinebenchR23Single": 1430
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "ryzen-7-5800x",
+    "name": "AMD Ryzen 7 5800X",
+    "shortName": "Ryzen 7 5800X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 3",
+    "releaseYear": 2020,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.8 GHz",
+    "boostClock": "4.7 GHz",
+    "cache": "36 MB",
+    "tdp": 105,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 449,
+    "scores": {
+      "overall": 47,
+      "multiCore": 36,
+      "singleCore": 68
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 15400,
+      "cinebenchR23Single": 1590
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "i7-11700k",
+    "name": "Intel Core i7-11700K",
+    "shortName": "i7-11700K",
+    "manufacturer": "Intel",
+    "architecture": "Rocket Lake",
+    "releaseYear": 2021,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.6 GHz",
+    "boostClock": "5.0 GHz",
+    "cache": "16 MB",
+    "tdp": 125,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 399,
+    "scores": {
+      "overall": 45,
+      "multiCore": 33,
+      "singleCore": 66
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 14000,
+      "cinebenchR23Single": 1560
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "ryzen-7-5800x3d",
+    "name": "AMD Ryzen 7 5800X3D",
+    "shortName": "Ryzen 7 5800X3D",
+    "manufacturer": "AMD",
+    "architecture": "Zen 3 3D-V",
+    "releaseYear": 2022,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.4 GHz",
+    "boostClock": "4.5 GHz",
+    "cache": "96 MB",
+    "tdp": 105,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 449,
+    "scores": {
+      "overall": 45,
+      "multiCore": 35,
+      "singleCore": 63
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 14800,
+      "cinebenchR23Single": 1490
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "ryzen-7-5700x",
+    "name": "AMD Ryzen 7 5700X",
+    "shortName": "Ryzen 7 5700X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 3",
+    "releaseYear": 2022,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.4 GHz",
+    "boostClock": "4.6 GHz",
+    "cache": "36 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 299,
+    "scores": {
+      "overall": 45,
+      "multiCore": 33,
+      "singleCore": 65
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 14200,
+      "cinebenchR23Single": 1530
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i5-12400",
+    "name": "Intel Core i5-12400",
+    "shortName": "i5-12400",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2022,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "2.5 GHz",
+    "boostClock": "4.4 GHz",
+    "cache": "18 MB",
+    "tdp": 65,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 192,
+    "scores": {
+      "overall": 44,
+      "multiCore": 29,
+      "singleCore": 72
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 12400,
+      "cinebenchR23Single": 1690
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i5-12400f",
+    "name": "Intel Core i5-12400F",
+    "shortName": "i5-12400F",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2022,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "2.5 GHz",
+    "boostClock": "4.4 GHz",
+    "cache": "18 MB",
+    "tdp": 65,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 167,
+    "scores": {
+      "overall": 44,
+      "multiCore": 29,
+      "singleCore": 72
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 12300,
+      "cinebenchR23Single": 1685
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i7-10700k",
+    "name": "Intel Core i7-10700K",
+    "shortName": "i7-10700K",
+    "manufacturer": "Intel",
+    "architecture": "Comet Lake",
+    "releaseYear": 2020,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.8 GHz",
+    "boostClock": "5.1 GHz",
+    "cache": "16 MB",
+    "tdp": 125,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 374,
+    "scores": {
+      "overall": 41,
+      "multiCore": 31,
+      "singleCore": 58
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 13200,
+      "cinebenchR23Single": 1370
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "xeon-e5-2699-v4",
+    "name": "Intel Xeon E5-2699 v4",
+    "shortName": "Xeon E5-2699 v4",
+    "manufacturer": "Intel",
+    "architecture": "Broadwell-EP",
+    "releaseYear": 2016,
+    "cores": 22,
+    "threads": 44,
+    "baseClock": "2.2 GHz",
+    "boostClock": "3.6 GHz",
+    "cache": "55 MB",
+    "tdp": 145,
+    "socket": "LGA 2011-v3",
+    "processNode": "14 nm",
+    "integratedGraphics": false,
+    "msrp": 4115,
+    "scores": {
+      "overall": 41,
+      "multiCore": 44,
+      "singleCore": 35
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 18500,
+      "cinebenchR23Single": 820
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2016-01"
+    }
+  },
+  {
+    "id": "ryzen-7-5700x3d",
+    "name": "AMD Ryzen 7 5700X3D",
+    "shortName": "Ryzen 7 5700X3D",
+    "manufacturer": "AMD",
+    "architecture": "Zen 3 3D-V",
+    "releaseYear": 2024,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.0 GHz",
+    "boostClock": "4.1 GHz",
+    "cache": "96 MB",
+    "tdp": 105,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 249,
+    "scores": {
+      "overall": 41,
+      "multiCore": 32,
+      "singleCore": 58
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 13500,
+      "cinebenchR23Single": 1370
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "i3-14100",
+    "name": "Intel Core i3-14100",
+    "shortName": "i3-14100",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2024,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.5 GHz",
+    "boostClock": "4.7 GHz",
+    "cache": "17 MB",
+    "tdp": 60,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 134,
+    "scores": {
+      "overall": 40,
+      "multiCore": 21,
+      "singleCore": 76
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8900,
+      "cinebenchR23Single": 1780
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "i3-14100f",
+    "name": "Intel Core i3-14100F",
+    "shortName": "i3-14100F",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake Refresh",
+    "releaseYear": 2024,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.5 GHz",
+    "boostClock": "4.7 GHz",
+    "cache": "17 MB",
+    "tdp": 58,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 109,
+    "scores": {
+      "overall": 40,
+      "multiCore": 21,
+      "singleCore": 76
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8850,
+      "cinebenchR23Single": 1775
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2024-01"
+    }
+  },
+  {
+    "id": "i9-9900k",
+    "name": "Intel Core i9-9900K",
+    "shortName": "i9-9900K",
+    "manufacturer": "Intel",
+    "architecture": "Coffee Lake Refresh",
+    "releaseYear": 2018,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.6 GHz",
+    "boostClock": "5.0 GHz",
+    "cache": "16 MB",
+    "tdp": 95,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 488,
+    "scores": {
+      "overall": 40,
+      "multiCore": 32,
+      "singleCore": 56
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 13500,
+      "cinebenchR23Single": 1320
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2018-01"
+    }
+  },
+  {
+    "id": "ryzen-5-5600x",
+    "name": "AMD Ryzen 5 5600X",
+    "shortName": "Ryzen 5 5600X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 3",
+    "releaseYear": 2020,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.7 GHz",
+    "boostClock": "4.6 GHz",
+    "cache": "35 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 299,
+    "scores": {
+      "overall": 40,
+      "multiCore": 26,
+      "singleCore": 66
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 11200,
+      "cinebenchR23Single": 1560
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "i3-13100",
+    "name": "Intel Core i3-13100",
+    "shortName": "i3-13100",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2023,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.4 GHz",
+    "boostClock": "4.5 GHz",
+    "cache": "17 MB",
+    "tdp": 60,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 134,
+    "scores": {
+      "overall": 39,
+      "multiCore": 20,
+      "singleCore": 73
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8700,
+      "cinebenchR23Single": 1720
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "i3-13100f",
+    "name": "Intel Core i3-13100F",
+    "shortName": "i3-13100F",
+    "manufacturer": "Intel",
+    "architecture": "Raptor Lake",
+    "releaseYear": 2023,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.4 GHz",
+    "boostClock": "4.5 GHz",
+    "cache": "17 MB",
+    "tdp": 58,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 109,
+    "scores": {
+      "overall": 39,
+      "multiCore": 20,
+      "singleCore": 73
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8650,
+      "cinebenchR23Single": 1715
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2023-01"
+    }
+  },
+  {
+    "id": "i5-11600k",
+    "name": "Intel Core i5-11600K",
+    "shortName": "i5-11600K",
+    "manufacturer": "Intel",
+    "architecture": "Rocket Lake",
+    "releaseYear": 2021,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.9 GHz",
+    "boostClock": "4.9 GHz",
+    "cache": "12 MB",
+    "tdp": 125,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 262,
+    "scores": {
+      "overall": 39,
+      "multiCore": 26,
+      "singleCore": 64
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 11000,
+      "cinebenchR23Single": 1510
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "ryzen-5-5600",
+    "name": "AMD Ryzen 5 5600",
+    "shortName": "Ryzen 5 5600",
+    "manufacturer": "AMD",
+    "architecture": "Zen 3",
+    "releaseYear": 2022,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.5 GHz",
+    "boostClock": "4.4 GHz",
+    "cache": "35 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 199,
+    "scores": {
+      "overall": 39,
+      "multiCore": 25,
+      "singleCore": 63
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 10700,
+      "cinebenchR23Single": 1490
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "ryzen-7-3800x",
+    "name": "AMD Ryzen 7 3800X",
+    "shortName": "Ryzen 7 3800X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 2",
+    "releaseYear": 2019,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.9 GHz",
+    "boostClock": "4.5 GHz",
+    "cache": "36 MB",
+    "tdp": 105,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 399,
+    "scores": {
+      "overall": 38,
+      "multiCore": 30,
+      "singleCore": 54
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 12600,
+      "cinebenchR23Single": 1270
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2019-01"
+    }
+  },
+  {
+    "id": "i3-12100",
+    "name": "Intel Core i3-12100",
+    "shortName": "i3-12100",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2022,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.3 GHz",
+    "boostClock": "4.3 GHz",
+    "cache": "12 MB",
+    "tdp": 60,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": true,
+    "msrp": 122,
+    "scores": {
+      "overall": 37,
+      "multiCore": 20,
+      "singleCore": 70
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8400,
+      "cinebenchR23Single": 1640
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i3-12100f",
+    "name": "Intel Core i3-12100F",
+    "shortName": "i3-12100F",
+    "manufacturer": "Intel",
+    "architecture": "Alder Lake",
+    "releaseYear": 2022,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.3 GHz",
+    "boostClock": "4.3 GHz",
+    "cache": "12 MB",
+    "tdp": 58,
+    "socket": "LGA 1700",
+    "processNode": "10 nm",
+    "integratedGraphics": false,
+    "msrp": 97,
+    "scores": {
+      "overall": 37,
+      "multiCore": 20,
+      "singleCore": 70
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8350,
+      "cinebenchR23Single": 1635
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "ryzen-7-3700x",
+    "name": "AMD Ryzen 7 3700X",
+    "shortName": "Ryzen 7 3700X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 2",
+    "releaseYear": 2019,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.6 GHz",
+    "boostClock": "4.4 GHz",
+    "cache": "36 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 329,
+    "scores": {
+      "overall": 37,
+      "multiCore": 28,
+      "singleCore": 53
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 12100,
+      "cinebenchR23Single": 1240
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2019-01"
+    }
+  },
+  {
+    "id": "i5-11400",
+    "name": "Intel Core i5-11400",
+    "shortName": "i5-11400",
+    "manufacturer": "Intel",
+    "architecture": "Rocket Lake",
+    "releaseYear": 2021,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "2.6 GHz",
+    "boostClock": "4.4 GHz",
+    "cache": "12 MB",
+    "tdp": 65,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 182,
+    "scores": {
+      "overall": 36,
+      "multiCore": 23,
+      "singleCore": 60
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 9800,
+      "cinebenchR23Single": 1420
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "i5-11400f",
+    "name": "Intel Core i5-11400F",
+    "shortName": "i5-11400F",
+    "manufacturer": "Intel",
+    "architecture": "Rocket Lake",
+    "releaseYear": 2021,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "2.6 GHz",
+    "boostClock": "4.4 GHz",
+    "cache": "12 MB",
+    "tdp": 65,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": false,
+    "msrp": 157,
+    "scores": {
+      "overall": 36,
+      "multiCore": 23,
+      "singleCore": 60
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 9750,
+      "cinebenchR23Single": 1415
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2021-01"
+    }
+  },
+  {
+    "id": "ryzen-5-5500",
+    "name": "AMD Ryzen 5 5500",
+    "shortName": "Ryzen 5 5500",
+    "manufacturer": "AMD",
+    "architecture": "Zen 3",
+    "releaseYear": 2022,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.6 GHz",
+    "boostClock": "4.2 GHz",
+    "cache": "19 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 159,
+    "scores": {
+      "overall": 35,
+      "multiCore": 23,
+      "singleCore": 59
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 9600,
+      "cinebenchR23Single": 1390
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2022-01"
+    }
+  },
+  {
+    "id": "i5-10600k",
+    "name": "Intel Core i5-10600K",
+    "shortName": "i5-10600K",
+    "manufacturer": "Intel",
+    "architecture": "Comet Lake",
+    "releaseYear": 2020,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "4.1 GHz",
+    "boostClock": "4.8 GHz",
+    "cache": "12 MB",
+    "tdp": 125,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 262,
+    "scores": {
+      "overall": 34,
+      "multiCore": 23,
+      "singleCore": 56
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 9600,
+      "cinebenchR23Single": 1310
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "i7-9700k",
+    "name": "Intel Core i7-9700K",
+    "shortName": "i7-9700K",
+    "manufacturer": "Intel",
+    "architecture": "Coffee Lake Refresh",
+    "releaseYear": 2018,
+    "cores": 8,
+    "threads": 8,
+    "baseClock": "3.6 GHz",
+    "boostClock": "4.9 GHz",
+    "cache": "12 MB",
+    "tdp": 95,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 374,
+    "scores": {
+      "overall": 34,
+      "multiCore": 23,
+      "singleCore": 54
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 9800,
+      "cinebenchR23Single": 1280
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2018-01"
+    }
+  },
+  {
+    "id": "ryzen-5-3600x",
+    "name": "AMD Ryzen 5 3600X",
+    "shortName": "Ryzen 5 3600X",
+    "manufacturer": "AMD",
+    "architecture": "Zen 2",
+    "releaseYear": 2019,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.8 GHz",
+    "boostClock": "4.4 GHz",
+    "cache": "35 MB",
+    "tdp": 95,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 249,
+    "scores": {
+      "overall": 33,
+      "multiCore": 22,
+      "singleCore": 53
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 9500,
+      "cinebenchR23Single": 1250
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2019-01"
+    }
+  },
+  {
+    "id": "i7-8700k",
+    "name": "Intel Core i7-8700K",
+    "shortName": "i7-8700K",
+    "manufacturer": "Intel",
+    "architecture": "Coffee Lake",
+    "releaseYear": 2017,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.7 GHz",
+    "boostClock": "4.7 GHz",
+    "cache": "12 MB",
+    "tdp": 95,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 359,
+    "scores": {
+      "overall": 32,
+      "multiCore": 21,
+      "singleCore": 53
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8900,
+      "cinebenchR23Single": 1240
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "ryzen-5-3600",
+    "name": "AMD Ryzen 5 3600",
+    "shortName": "Ryzen 5 3600",
+    "manufacturer": "AMD",
+    "architecture": "Zen 2",
+    "releaseYear": 2019,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.6 GHz",
+    "boostClock": "4.2 GHz",
+    "cache": "35 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "7 nm",
+    "integratedGraphics": false,
+    "msrp": 199,
+    "scores": {
+      "overall": 32,
+      "multiCore": 21,
+      "singleCore": 51
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 9100,
+      "cinebenchR23Single": 1200
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2019-01"
+    }
+  },
+  {
+    "id": "i5-10400",
+    "name": "Intel Core i5-10400",
+    "shortName": "i5-10400",
+    "manufacturer": "Intel",
+    "architecture": "Comet Lake",
+    "releaseYear": 2020,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "2.9 GHz",
+    "boostClock": "4.3 GHz",
+    "cache": "12 MB",
+    "tdp": 65,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 182,
+    "scores": {
+      "overall": 30,
+      "multiCore": 19,
+      "singleCore": 51
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8100,
+      "cinebenchR23Single": 1190
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "i5-10400f",
+    "name": "Intel Core i5-10400F",
+    "shortName": "i5-10400F",
+    "manufacturer": "Intel",
+    "architecture": "Comet Lake",
+    "releaseYear": 2020,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "2.9 GHz",
+    "boostClock": "4.3 GHz",
+    "cache": "12 MB",
+    "tdp": 65,
+    "socket": "LGA 1200",
+    "processNode": "14 nm",
+    "integratedGraphics": false,
+    "msrp": 157,
+    "scores": {
+      "overall": 30,
+      "multiCore": 19,
+      "singleCore": 50
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8050,
+      "cinebenchR23Single": 1185
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "ryzen-7-2700x",
+    "name": "AMD Ryzen 7 2700X",
+    "shortName": "Ryzen 7 2700X",
+    "manufacturer": "AMD",
+    "architecture": "Zen+",
+    "releaseYear": 2018,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.7 GHz",
+    "boostClock": "4.3 GHz",
+    "cache": "20 MB",
+    "tdp": 105,
+    "socket": "AM4",
+    "processNode": "12 nm",
+    "integratedGraphics": false,
+    "msrp": 329,
+    "scores": {
+      "overall": 30,
+      "multiCore": 22,
+      "singleCore": 46
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 9400,
+      "cinebenchR23Single": 1070
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2018-01"
+    }
+  },
+  {
+    "id": "i5-9600k",
+    "name": "Intel Core i5-9600K",
+    "shortName": "i5-9600K",
+    "manufacturer": "Intel",
+    "architecture": "Coffee Lake Refresh",
+    "releaseYear": 2018,
+    "cores": 6,
+    "threads": 6,
+    "baseClock": "3.7 GHz",
+    "boostClock": "4.6 GHz",
+    "cache": "9 MB",
+    "tdp": 95,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 262,
+    "scores": {
+      "overall": 29,
+      "multiCore": 17,
+      "singleCore": 52
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 7100,
+      "cinebenchR23Single": 1230
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2018-01"
+    }
+  },
+  {
+    "id": "i5-8600k",
+    "name": "Intel Core i5-8600K",
+    "shortName": "i5-8600K",
+    "manufacturer": "Intel",
+    "architecture": "Coffee Lake",
+    "releaseYear": 2017,
+    "cores": 6,
+    "threads": 6,
+    "baseClock": "3.6 GHz",
+    "boostClock": "4.3 GHz",
+    "cache": "9 MB",
+    "tdp": 95,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 257,
+    "scores": {
+      "overall": 28,
+      "multiCore": 16,
+      "singleCore": 50
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 6700,
+      "cinebenchR23Single": 1170
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "ryzen-7-2700",
+    "name": "AMD Ryzen 7 2700",
+    "shortName": "Ryzen 7 2700",
+    "manufacturer": "AMD",
+    "architecture": "Zen+",
+    "releaseYear": 2018,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.2 GHz",
+    "boostClock": "4.1 GHz",
+    "cache": "20 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "12 nm",
+    "integratedGraphics": false,
+    "msrp": 299,
+    "scores": {
+      "overall": 28,
+      "multiCore": 20,
+      "singleCore": 43
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8500,
+      "cinebenchR23Single": 1010
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2018-01"
+    }
+  },
+  {
+    "id": "ryzen-5-2600x",
+    "name": "AMD Ryzen 5 2600X",
+    "shortName": "Ryzen 5 2600X",
+    "manufacturer": "AMD",
+    "architecture": "Zen+",
+    "releaseYear": 2018,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.6 GHz",
+    "boostClock": "4.2 GHz",
+    "cache": "19 MB",
+    "tdp": 95,
+    "socket": "AM4",
+    "processNode": "12 nm",
+    "integratedGraphics": false,
+    "msrp": 229,
+    "scores": {
+      "overall": 27,
+      "multiCore": 17,
+      "singleCore": 45
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 7400,
+      "cinebenchR23Single": 1050
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2018-01"
+    }
+  },
+  {
+    "id": "ryzen-7-1800x",
+    "name": "AMD Ryzen 7 1800X",
+    "shortName": "Ryzen 7 1800X",
+    "manufacturer": "AMD",
+    "architecture": "Zen",
+    "releaseYear": 2017,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.6 GHz",
+    "boostClock": "4.0 GHz",
+    "cache": "20 MB",
+    "tdp": 95,
+    "socket": "AM4",
+    "processNode": "14 nm",
+    "integratedGraphics": false,
+    "msrp": 499,
+    "scores": {
+      "overall": 27,
+      "multiCore": 19,
+      "singleCore": 41
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 8200,
+      "cinebenchR23Single": 960
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "i7-7700k",
+    "name": "Intel Core i7-7700K",
+    "shortName": "i7-7700K",
+    "manufacturer": "Intel",
+    "architecture": "Kaby Lake",
+    "releaseYear": 2017,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "4.2 GHz",
+    "boostClock": "4.5 GHz",
+    "cache": "8 MB",
+    "tdp": 91,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 339,
+    "scores": {
+      "overall": 26,
+      "multiCore": 14,
+      "singleCore": 49
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 6100,
+      "cinebenchR23Single": 1150
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "i5-9400f",
+    "name": "Intel Core i5-9400F",
+    "shortName": "i5-9400F",
+    "manufacturer": "Intel",
+    "architecture": "Coffee Lake Refresh",
+    "releaseYear": 2019,
+    "cores": 6,
+    "threads": 6,
+    "baseClock": "2.9 GHz",
+    "boostClock": "4.1 GHz",
+    "cache": "9 MB",
+    "tdp": 65,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": false,
+    "msrp": 182,
+    "scores": {
+      "overall": 25,
+      "multiCore": 13,
+      "singleCore": 47
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 5600,
+      "cinebenchR23Single": 1110
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2019-01"
+    }
+  },
+  {
+    "id": "i7-6700k",
+    "name": "Intel Core i7-6700K",
+    "shortName": "i7-6700K",
+    "manufacturer": "Intel",
+    "architecture": "Skylake",
+    "releaseYear": 2015,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "4.0 GHz",
+    "boostClock": "4.2 GHz",
+    "cache": "8 MB",
+    "tdp": 91,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 339,
+    "scores": {
+      "overall": 25,
+      "multiCore": 13,
+      "singleCore": 46
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 5600,
+      "cinebenchR23Single": 1080
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2015-01"
+    }
+  },
+  {
+    "id": "ryzen-5-2600",
+    "name": "AMD Ryzen 5 2600",
+    "shortName": "Ryzen 5 2600",
+    "manufacturer": "AMD",
+    "architecture": "Zen+",
+    "releaseYear": 2018,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.4 GHz",
+    "boostClock": "3.9 GHz",
+    "cache": "19 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "12 nm",
+    "integratedGraphics": false,
+    "msrp": 199,
+    "scores": {
+      "overall": 25,
+      "multiCore": 16,
+      "singleCore": 42
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 6800,
+      "cinebenchR23Single": 990
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2018-01"
+    }
+  },
+  {
+    "id": "i5-8400",
+    "name": "Intel Core i5-8400",
+    "shortName": "i5-8400",
+    "manufacturer": "Intel",
+    "architecture": "Coffee Lake",
+    "releaseYear": 2017,
+    "cores": 6,
+    "threads": 6,
+    "baseClock": "2.8 GHz",
+    "boostClock": "4.0 GHz",
+    "cache": "9 MB",
+    "tdp": 65,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 182,
+    "scores": {
+      "overall": 24,
+      "multiCore": 13,
+      "singleCore": 46
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 5400,
+      "cinebenchR23Single": 1090
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "ryzen-7-1700",
+    "name": "AMD Ryzen 7 1700",
+    "shortName": "Ryzen 7 1700",
+    "manufacturer": "AMD",
+    "architecture": "Zen",
+    "releaseYear": 2017,
+    "cores": 8,
+    "threads": 16,
+    "baseClock": "3.0 GHz",
+    "boostClock": "3.7 GHz",
+    "cache": "20 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "14 nm",
+    "integratedGraphics": false,
+    "msrp": 329,
+    "scores": {
+      "overall": 24,
+      "multiCore": 17,
+      "singleCore": 38
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 7100,
+      "cinebenchR23Single": 890
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "i5-7600k",
+    "name": "Intel Core i5-7600K",
+    "shortName": "i5-7600K",
+    "manufacturer": "Intel",
+    "architecture": "Kaby Lake",
+    "releaseYear": 2017,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.8 GHz",
+    "boostClock": "4.2 GHz",
+    "cache": "6 MB",
+    "tdp": 91,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 242,
+    "scores": {
+      "overall": 23,
+      "multiCore": 10,
+      "singleCore": 46
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 4400,
+      "cinebenchR23Single": 1090
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "ryzen-5-1600",
+    "name": "AMD Ryzen 5 1600",
+    "shortName": "Ryzen 5 1600",
+    "manufacturer": "AMD",
+    "architecture": "Zen",
+    "releaseYear": 2017,
+    "cores": 6,
+    "threads": 12,
+    "baseClock": "3.2 GHz",
+    "boostClock": "3.6 GHz",
+    "cache": "19 MB",
+    "tdp": 65,
+    "socket": "AM4",
+    "processNode": "14 nm",
+    "integratedGraphics": false,
+    "msrp": 219,
+    "scores": {
+      "overall": 22,
+      "multiCore": 13,
+      "singleCore": 37
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 5600,
+      "cinebenchR23Single": 870
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "i7-4790k",
+    "name": "Intel Core i7-4790K",
+    "shortName": "i7-4790K",
+    "manufacturer": "Intel",
+    "architecture": "Haswell Refresh",
+    "releaseYear": 2014,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "4.0 GHz",
+    "boostClock": "4.4 GHz",
+    "cache": "8 MB",
+    "tdp": 88,
+    "socket": "LGA 1150",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 339,
+    "scores": {
+      "overall": 22,
+      "multiCore": 12,
+      "singleCore": 42
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 4950,
+      "cinebenchR23Single": 990
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2014-01"
+    }
+  },
+  {
+    "id": "i7-5775c",
+    "name": "Intel Core i7-5775C",
+    "shortName": "i7-5775C",
+    "manufacturer": "Intel",
+    "architecture": "Broadwell",
+    "releaseYear": 2015,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.3 GHz",
+    "boostClock": "3.7 GHz",
+    "cache": "134 MB",
+    "tdp": 65,
+    "socket": "LGA 1150",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 366,
+    "scores": {
+      "overall": 22,
+      "multiCore": 11,
+      "singleCore": 41
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 4800,
+      "cinebenchR23Single": 970
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2015-01"
+    }
+  },
+  {
+    "id": "i5-6600k",
+    "name": "Intel Core i5-6600K",
+    "shortName": "i5-6600K",
+    "manufacturer": "Intel",
+    "architecture": "Skylake",
+    "releaseYear": 2015,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.5 GHz",
+    "boostClock": "3.9 GHz",
+    "cache": "6 MB",
+    "tdp": 91,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 242,
+    "scores": {
+      "overall": 21,
+      "multiCore": 10,
+      "singleCore": 43
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 4100,
+      "cinebenchR23Single": 1010
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2015-01"
+    }
+  },
+  {
+    "id": "i7-4790",
+    "name": "Intel Core i7-4790",
+    "shortName": "i7-4790",
+    "manufacturer": "Intel",
+    "architecture": "Haswell Refresh",
+    "releaseYear": 2014,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.6 GHz",
+    "boostClock": "4.0 GHz",
+    "cache": "8 MB",
+    "tdp": 84,
+    "socket": "LGA 1150",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 303,
+    "scores": {
+      "overall": 21,
+      "multiCore": 11,
+      "singleCore": 40
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 4500,
+      "cinebenchR23Single": 930
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2014-01"
+    }
+  },
+  {
+    "id": "i5-7400",
+    "name": "Intel Core i5-7400",
+    "shortName": "i5-7400",
+    "manufacturer": "Intel",
+    "architecture": "Kaby Lake",
+    "releaseYear": 2017,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.0 GHz",
+    "boostClock": "3.5 GHz",
+    "cache": "6 MB",
+    "tdp": 65,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 182,
+    "scores": {
+      "overall": 20,
+      "multiCore": 8,
+      "singleCore": 40
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3600,
+      "cinebenchR23Single": 940
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "xeon-e3-1270-v3",
+    "name": "Intel Xeon E3-1270 v3",
+    "shortName": "Xeon E3-1270 v3",
+    "manufacturer": "Intel",
+    "architecture": "Haswell",
+    "releaseYear": 2013,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.5 GHz",
+    "boostClock": "3.9 GHz",
+    "cache": "8 MB",
+    "tdp": 80,
+    "socket": "LGA 1150",
+    "processNode": "22 nm",
+    "integratedGraphics": false,
+    "msrp": 328,
+    "scores": {
+      "overall": 20,
+      "multiCore": 10,
+      "singleCore": 39
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 4400,
+      "cinebenchR23Single": 910
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2013-01"
+    }
+  },
+  {
+    "id": "i5-6500",
+    "name": "Intel Core i5-6500",
+    "shortName": "i5-6500",
+    "manufacturer": "Intel",
+    "architecture": "Skylake",
+    "releaseYear": 2015,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.2 GHz",
+    "boostClock": "3.6 GHz",
+    "cache": "6 MB",
+    "tdp": 65,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 192,
+    "scores": {
+      "overall": 19,
+      "multiCore": 8,
+      "singleCore": 40
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3400,
+      "cinebenchR23Single": 930
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2015-01"
+    }
+  },
+  {
+    "id": "i7-3770k",
+    "name": "Intel Core i7-3770K",
+    "shortName": "i7-3770K",
+    "manufacturer": "Intel",
+    "architecture": "Ivy Bridge",
+    "releaseYear": 2012,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.5 GHz",
+    "boostClock": "3.9 GHz",
+    "cache": "8 MB",
+    "tdp": 77,
+    "socket": "LGA 1155",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 332,
+    "scores": {
+      "overall": 19,
+      "multiCore": 10,
+      "singleCore": 37
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 4100,
+      "cinebenchR23Single": 860
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2012-01"
+    }
+  },
+  {
+    "id": "i7-3770",
+    "name": "Intel Core i7-3770",
+    "shortName": "i7-3770",
+    "manufacturer": "Intel",
+    "architecture": "Ivy Bridge",
+    "releaseYear": 2012,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.4 GHz",
+    "boostClock": "3.9 GHz",
+    "cache": "8 MB",
+    "tdp": 77,
+    "socket": "LGA 1155",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 294,
+    "scores": {
+      "overall": 19,
+      "multiCore": 9,
+      "singleCore": 36
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3950,
+      "cinebenchR23Single": 850
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2012-01"
+    }
+  },
+  {
+    "id": "i5-4690k",
+    "name": "Intel Core i5-4690K",
+    "shortName": "i5-4690K",
+    "manufacturer": "Intel",
+    "architecture": "Haswell Refresh",
+    "releaseYear": 2014,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.5 GHz",
+    "boostClock": "3.9 GHz",
+    "cache": "6 MB",
+    "tdp": 88,
+    "socket": "LGA 1150",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 242,
+    "scores": {
+      "overall": 19,
+      "multiCore": 8,
+      "singleCore": 39
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3450,
+      "cinebenchR23Single": 920
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2014-01"
+    }
+  },
+  {
+    "id": "i5-4670k",
+    "name": "Intel Core i5-4670K",
+    "shortName": "i5-4670K",
+    "manufacturer": "Intel",
+    "architecture": "Haswell",
+    "releaseYear": 2013,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.4 GHz",
+    "boostClock": "3.8 GHz",
+    "cache": "6 MB",
+    "tdp": 84,
+    "socket": "LGA 1150",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 242,
+    "scores": {
+      "overall": 18,
+      "multiCore": 8,
+      "singleCore": 38
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3300,
+      "cinebenchR23Single": 890
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2013-01"
+    }
+  },
+  {
+    "id": "xeon-e3-1230-v2",
+    "name": "Intel Xeon E3-1230 v2",
+    "shortName": "Xeon E3-1230 v2",
+    "manufacturer": "Intel",
+    "architecture": "Ivy Bridge",
+    "releaseYear": 2012,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.3 GHz",
+    "boostClock": "3.7 GHz",
+    "cache": "8 MB",
+    "tdp": 69,
+    "socket": "LGA 1155",
+    "processNode": "22 nm",
+    "integratedGraphics": false,
+    "msrp": 215,
+    "scores": {
+      "overall": 18,
+      "multiCore": 9,
+      "singleCore": 35
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3800,
+      "cinebenchR23Single": 820
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2012-01"
+    }
+  },
+  {
+    "id": "pentium-g4560",
+    "name": "Intel Pentium G4560",
+    "shortName": "Pentium G4560",
+    "manufacturer": "Intel",
+    "architecture": "Kaby Lake",
+    "releaseYear": 2017,
+    "cores": 2,
+    "threads": 4,
+    "baseClock": "3.5 GHz",
+    "boostClock": "3.5 GHz",
+    "cache": "3 MB",
+    "tdp": 54,
+    "socket": "LGA 1151",
+    "processNode": "14 nm",
+    "integratedGraphics": true,
+    "msrp": 64,
+    "scores": {
+      "overall": 17,
+      "multiCore": 5,
+      "singleCore": 38
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 2200,
+      "cinebenchR23Single": 890
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Geekbench Official Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2017-01"
+    }
+  },
+  {
+    "id": "i7-2700k",
+    "name": "Intel Core i7-2700K",
+    "shortName": "i7-2700K",
+    "manufacturer": "Intel",
+    "architecture": "Sandy Bridge",
+    "releaseYear": 2011,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.5 GHz",
+    "boostClock": "3.9 GHz",
+    "cache": "8 MB",
+    "tdp": 95,
+    "socket": "LGA 1155",
+    "processNode": "32 nm",
+    "integratedGraphics": true,
+    "msrp": 332,
+    "scores": {
+      "overall": 17,
+      "multiCore": 8,
+      "singleCore": 33
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3600,
+      "cinebenchR23Single": 770
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2011-01"
+    }
+  },
+  {
+    "id": "i5-3570k",
+    "name": "Intel Core i5-3570K",
+    "shortName": "i5-3570K",
+    "manufacturer": "Intel",
+    "architecture": "Ivy Bridge",
+    "releaseYear": 2012,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.4 GHz",
+    "boostClock": "3.8 GHz",
+    "cache": "6 MB",
+    "tdp": 77,
+    "socket": "LGA 1155",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 225,
+    "scores": {
+      "overall": 17,
+      "multiCore": 7,
+      "singleCore": 36
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 2950,
+      "cinebenchR23Single": 840
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2012-01"
+    }
+  },
+  {
+    "id": "i5-3570",
+    "name": "Intel Core i5-3570",
+    "shortName": "i5-3570",
+    "manufacturer": "Intel",
+    "architecture": "Ivy Bridge",
+    "releaseYear": 2012,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.4 GHz",
+    "boostClock": "3.8 GHz",
+    "cache": "6 MB",
+    "tdp": 77,
+    "socket": "LGA 1155",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 205,
+    "scores": {
+      "overall": 17,
+      "multiCore": 7,
+      "singleCore": 35
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 2880,
+      "cinebenchR23Single": 830
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2012-01"
+    }
+  },
+  {
+    "id": "i5-4570",
+    "name": "Intel Core i5-4570",
+    "shortName": "i5-4570",
+    "manufacturer": "Intel",
+    "architecture": "Haswell",
+    "releaseYear": 2013,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.2 GHz",
+    "boostClock": "3.6 GHz",
+    "cache": "6 MB",
+    "tdp": 84,
+    "socket": "LGA 1150",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 192,
+    "scores": {
+      "overall": 17,
+      "multiCore": 7,
+      "singleCore": 36
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3050,
+      "cinebenchR23Single": 850
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2013-01"
+    }
+  },
+  {
+    "id": "i7-2600k",
+    "name": "Intel Core i7-2600K",
+    "shortName": "i7-2600K",
+    "manufacturer": "Intel",
+    "architecture": "Sandy Bridge",
+    "releaseYear": 2011,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.4 GHz",
+    "boostClock": "3.8 GHz",
+    "cache": "8 MB",
+    "tdp": 95,
+    "socket": "LGA 1155",
+    "processNode": "32 nm",
+    "integratedGraphics": true,
+    "msrp": 317,
+    "scores": {
+      "overall": 16,
+      "multiCore": 8,
+      "singleCore": 32
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3450,
+      "cinebenchR23Single": 750
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2011-01"
+    }
+  },
+  {
+    "id": "i7-2600",
+    "name": "Intel Core i7-2600",
+    "shortName": "i7-2600",
+    "manufacturer": "Intel",
+    "architecture": "Sandy Bridge",
+    "releaseYear": 2011,
+    "cores": 4,
+    "threads": 8,
+    "baseClock": "3.4 GHz",
+    "boostClock": "3.8 GHz",
+    "cache": "8 MB",
+    "tdp": 95,
+    "socket": "LGA 1155",
+    "processNode": "32 nm",
+    "integratedGraphics": true,
+    "msrp": 294,
+    "scores": {
+      "overall": 16,
+      "multiCore": 8,
+      "singleCore": 31
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 3350,
+      "cinebenchR23Single": 740
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2011-01"
+    }
+  },
+  {
+    "id": "i5-3470",
+    "name": "Intel Core i5-3470",
+    "shortName": "i5-3470",
+    "manufacturer": "Intel",
+    "architecture": "Ivy Bridge",
+    "releaseYear": 2012,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.2 GHz",
+    "boostClock": "3.6 GHz",
+    "cache": "6 MB",
+    "tdp": 77,
+    "socket": "LGA 1155",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 184,
+    "scores": {
+      "overall": 16,
+      "multiCore": 6,
+      "singleCore": 34
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 2700,
+      "cinebenchR23Single": 790
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2012-01"
+    }
+  },
+  {
+    "id": "i5-4440",
+    "name": "Intel Core i5-4440",
+    "shortName": "i5-4440",
+    "manufacturer": "Intel",
+    "architecture": "Haswell",
+    "releaseYear": 2013,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.1 GHz",
+    "boostClock": "3.3 GHz",
+    "cache": "6 MB",
+    "tdp": 84,
+    "socket": "LGA 1150",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 182,
+    "scores": {
+      "overall": 16,
+      "multiCore": 7,
+      "singleCore": 34
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 2800,
+      "cinebenchR23Single": 790
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2013-01"
+    }
+  },
+  {
+    "id": "i5-2500k",
+    "name": "Intel Core i5-2500K",
+    "shortName": "i5-2500K",
+    "manufacturer": "Intel",
+    "architecture": "Sandy Bridge",
+    "releaseYear": 2011,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.3 GHz",
+    "boostClock": "3.7 GHz",
+    "cache": "6 MB",
+    "tdp": 95,
+    "socket": "LGA 1155",
+    "processNode": "32 nm",
+    "integratedGraphics": true,
+    "msrp": 216,
+    "scores": {
+      "overall": 15,
+      "multiCore": 6,
+      "singleCore": 31
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 2600,
+      "cinebenchR23Single": 730
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2011-01"
+    }
+  },
+  {
+    "id": "i5-2500",
+    "name": "Intel Core i5-2500",
+    "shortName": "i5-2500",
+    "manufacturer": "Intel",
+    "architecture": "Sandy Bridge",
+    "releaseYear": 2011,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.3 GHz",
+    "boostClock": "3.7 GHz",
+    "cache": "6 MB",
+    "tdp": 95,
+    "socket": "LGA 1155",
+    "processNode": "32 nm",
+    "integratedGraphics": true,
+    "msrp": 205,
+    "scores": {
+      "overall": 15,
+      "multiCore": 6,
+      "singleCore": 31
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 2520,
+      "cinebenchR23Single": 720
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2011-01"
+    }
+  },
+  {
+    "id": "i3-4130",
+    "name": "Intel Core i3-4130",
+    "shortName": "i3-4130",
+    "manufacturer": "Intel",
+    "architecture": "Haswell",
+    "releaseYear": 2013,
+    "cores": 2,
+    "threads": 4,
+    "baseClock": "3.4 GHz",
+    "boostClock": "3.4 GHz",
+    "cache": "3 MB",
+    "tdp": 54,
+    "socket": "LGA 1150",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 122,
+    "scores": {
+      "overall": 15,
+      "multiCore": 4,
+      "singleCore": 34
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 1850,
+      "cinebenchR23Single": 810
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2013-01"
+    }
+  },
+  {
+    "id": "pentium-g3258",
+    "name": "Intel Pentium G3258 20th Anniv.",
+    "shortName": "Pentium G3258",
+    "manufacturer": "Intel",
+    "architecture": "Haswell",
+    "releaseYear": 2014,
+    "cores": 2,
+    "threads": 2,
+    "baseClock": "3.2 GHz",
+    "boostClock": "3.2 GHz",
+    "cache": "3 MB",
+    "tdp": 53,
+    "socket": "LGA 1150",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 72,
+    "scores": {
+      "overall": 14,
+      "multiCore": 3,
+      "singleCore": 33
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 1250,
+      "cinebenchR23Single": 780
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2014-01"
+    }
+  },
+  {
+    "id": "i5-2400",
+    "name": "Intel Core i5-2400",
+    "shortName": "i5-2400",
+    "manufacturer": "Intel",
+    "architecture": "Sandy Bridge",
+    "releaseYear": 2011,
+    "cores": 4,
+    "threads": 4,
+    "baseClock": "3.1 GHz",
+    "boostClock": "3.4 GHz",
+    "cache": "6 MB",
+    "tdp": 95,
+    "socket": "LGA 1155",
+    "processNode": "32 nm",
+    "integratedGraphics": true,
+    "msrp": 184,
+    "scores": {
+      "overall": 13,
+      "multiCore": 5,
+      "singleCore": 29
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 2300,
+      "cinebenchR23Single": 670
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2011-01"
+    }
+  },
+  {
+    "id": "i3-3220",
+    "name": "Intel Core i3-3220",
+    "shortName": "i3-3220",
+    "manufacturer": "Intel",
+    "architecture": "Ivy Bridge",
+    "releaseYear": 2012,
+    "cores": 2,
+    "threads": 4,
+    "baseClock": "3.3 GHz",
+    "boostClock": "3.3 GHz",
+    "cache": "3 MB",
+    "tdp": 55,
+    "socket": "LGA 1155",
+    "processNode": "22 nm",
+    "integratedGraphics": true,
+    "msrp": 117,
+    "scores": {
+      "overall": 13,
+      "multiCore": 4,
+      "singleCore": 31
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 1650,
+      "cinebenchR23Single": 720
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2012-01"
+    }
+  },
+  {
+    "id": "i3-2120",
+    "name": "Intel Core i3-2120",
+    "shortName": "i3-2120",
+    "manufacturer": "Intel",
+    "architecture": "Sandy Bridge",
+    "releaseYear": 2011,
+    "cores": 2,
+    "threads": 4,
+    "baseClock": "3.3 GHz",
+    "boostClock": "3.3 GHz",
+    "cache": "3 MB",
+    "tdp": 65,
+    "socket": "LGA 1155",
+    "processNode": "32 nm",
+    "integratedGraphics": true,
+    "msrp": 138,
+    "scores": {
+      "overall": 12,
+      "multiCore": 3,
+      "singleCore": 28
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 1450,
+      "cinebenchR23Single": 650
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2011-01"
+    }
+  },
+  {
+    "id": "i3-2100",
+    "name": "Intel Core i3-2100",
+    "shortName": "i3-2100",
+    "manufacturer": "Intel",
+    "architecture": "Sandy Bridge",
+    "releaseYear": 2011,
+    "cores": 2,
+    "threads": 4,
+    "baseClock": "3.1 GHz",
+    "boostClock": "3.1 GHz",
+    "cache": "3 MB",
+    "tdp": 65,
+    "socket": "LGA 1155",
+    "processNode": "32 nm",
+    "integratedGraphics": true,
+    "msrp": 117,
+    "scores": {
+      "overall": 11,
+      "multiCore": 3,
+      "singleCore": 26
+    },
+    "benchmarks": {
+      "cinebenchR23Multi": 1350,
+      "cinebenchR23Single": 610
+    },
+    "benchmarkSource": {
+      "sourceName": "Cinebench R23 / Historical Public Benchmark Database",
+      "sourceUrl": "https://www.cpu-monkey.com/",
+      "testDate": "2011-01"
+    }
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "corsair-rm1000x",
+    "name": "Corsair RM1000x 1000W",
+    "shortName": "RM1000x",
+    "manufacturer": "Corsair",
+    "wattage": 1000,
+    "efficiency": "80 PLUS Gold",
+    "atxVersion": "ATX 3.0",
+    "modularity": "Full Modular",
+    "protections": "OVP, OCP, OPP, SCP, OTP",
+    "msrp": 189,
+    "score": 96,
+    "scores": {
+      "overall": 96
+    }
+  },
+  {
+    "id": "seasonic-prime-px-1000",
+    "name": "Seasonic Prime PX-1000",
+    "shortName": "Prime PX-1000",
+    "manufacturer": "Seasonic",
+    "wattage": 1000,
+    "efficiency": "80 PLUS Platinum",
+    "atxVersion": "ATX 3.0",
+    "modularity": "Full Modular",
+    "protections": "OVP, OCP, OPP, SCP, OTP, UVP",
+    "msrp": 239,
+    "score": 100,
+    "scores": {
+      "overall": 100
+    }
+  },
+  {
+    "id": "msi-mag-a850gl",
+    "name": "MSI MAG A850GL PCIE5",
+    "shortName": "MAG A850GL",
+    "manufacturer": "MSI",
+    "wattage": 850,
+    "efficiency": "80 PLUS Gold",
+    "atxVersion": "ATX 3.0",
+    "modularity": "Full Modular",
+    "protections": "OVP, OCP, OPP, SCP, OTP",
+    "msrp": 119,
+    "score": 85,
+    "scores": {
+      "overall": 85
+    }
+  },
+  {
+    "id": "msi-mag-a650bn",
+    "name": "MSI MAG A650BN 650W",
+    "shortName": "MAG A650BN",
+    "manufacturer": "MSI",
+    "wattage": 650,
+    "efficiency": "80 PLUS Bronze",
+    "atxVersion": "ATX 2.4",
+    "modularity": "Non-Modular",
+    "protections": "OVP, OCP, OPP, SCP",
+    "msrp": 59,
+    "score": 62,
+    "scores": {
+      "overall": 62
+    }
+  },
+  {
+    "id": "deepcool-pf650",
+    "name": "DeepCool PF650 650W",
+    "shortName": "DeepCool PF650",
+    "manufacturer": "DeepCool",
+    "wattage": 650,
+    "efficiency": "80 PLUS Standard",
+    "atxVersion": "ATX 2.4",
+    "modularity": "Non-Modular",
+    "protections": "OVP, OPP, SCP",
+    "msrp": 49,
+    "score": 50,
+    "scores": {
+      "overall": 50
+    }
+  },
+  {
+    "id": "be-quiet-pure-power-12-m-750w",
+    "name": "be quiet! Pure Power 12 M 750W",
+    "shortName": "Pure Power 12 M 750W",
+    "manufacturer": "be quiet!",
+    "wattage": 750,
+    "efficiency": "80 PLUS Gold",
+    "atxVersion": "ATX 3.0",
+    "modularity": "Full Modular",
+    "protections": "OVP, OCP, OPP, SCP, OTP, UVP",
+    "msrp": 119,
+    "score": 88,
+    "scores": {
+      "overall": 88
+    }
+  },
+  {
+    "id": "cooler-master-mwe-gold-850-v2",
+    "name": "Cooler Master MWE Gold 850 V2",
+    "shortName": "MWE Gold 850 V2",
+    "manufacturer": "Cooler Master",
+    "wattage": 850,
+    "efficiency": "80 PLUS Gold",
+    "atxVersion": "ATX 2.52",
+    "modularity": "Full Modular",
+    "protections": "OVP, OCP, OPP, SCP, OTP",
+    "msrp": 109,
+    "score": 82,
+    "scores": {
+      "overall": 82
+    }
+  }
+]

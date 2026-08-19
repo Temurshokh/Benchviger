@@ -1,0 +1,315 @@
+:root {
+  --bg-dark: #0b0f19;
+  --bg-card: #131b2e;
+  --bg-card-hover: #1b2640;
+  --bg-input: #172036;
+  --border-color: #233152;
+  --border-active: #3b82f6;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  --accent-nvidia: #76b900;
+  --accent-amd: #ff4747;
+  --accent-intel: #0071c5;
+
+  --badge-ultra: #10b981; /* Green 75-100 */
+  --badge-high: #3b82f6;  /* Blue 50-74 */
+  --badge-mid: #f59e0b;   /* Amber 25-49 */
+  --badge-entry: #64748b; /* Slate 0-24 */
+
+  --star-gold: #fbbf24;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 4px 20px rgba(59, 130, 246, 0.15);
+
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --nav-height: 64px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  line-height: 1.5;
+  padding-bottom: calc(var(--nav-height) + 24px);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* App Header */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(11, 15, 25, 0.88);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #60a5fa, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-badge {
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  -webkit-text-fill-color: initial;
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-btn {
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.icon-btn:active {
+  transform: scale(0.95);
+}
+
+.badge-count {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: #ef4444;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Category Navigation Scroll */
+.category-nav-bar {
+  padding: 12px 16px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.category-nav-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.cat-chip {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cat-chip.active {
+  background: var(--border-active);
+  color: white;
+  border-color: var(--border-active);
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
+}
+
+/* Container */
+.container {
+  padding: 0 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Search Box */
+.search-box {
+  position: relative;
+  margin: 12px 0 16px 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px 12px 42px;
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: var(--border-active);
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+/* Filter Controls Bar */
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.select-input {
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  outline: none;
+  flex: 1;
+  min-width: 110px;
+}
+
+/* Bottom Navigation Bar (Mobile) */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  background: rgba(11, 15, 25, 0.95);
+  backdrop-filter: blur(16px);
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 200;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-item svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.nav-item.active {
+  color: var(--border-active);
+  font-weight: 700;
+}
+
+/* Common Section Titles */
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 16px 0 12px 0;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* SVG Utilities */
+.icon-svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+/* ============================================================
+   LIGHT THEME — body.light-theme overrides all CSS variables
+   ============================================================ */
+body.light-theme {
+  --bg-dark: #f0f2f7;
+  --bg-card: #ffffff;
+  --bg-card-hover: #e8edf5;
+  --bg-input: #eef1f7;
+  --border-color: #d0d7e3;
+  --border-active: #2563eb;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-glow: 0 4px 20px rgba(37,99,235,0.12);
+}
+
+body.light-theme .app-header {
+  background: rgba(240, 242, 247, 0.92);
+}
+
+body.light-theme .bottom-nav {
+  background: rgba(240, 242, 247, 0.97);
+}
+
+body.light-theme .search-input,
+body.light-theme .select-input {
+  color: var(--text-primary);
+}
+
+body.light-theme .search-input::placeholder {
+  color: var(--text-muted);
+}
+
+body.light-theme .spec-chip {
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .source-box {
+  background: rgba(220, 228, 245, 0.7);
+}

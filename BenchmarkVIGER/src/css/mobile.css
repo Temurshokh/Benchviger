@@ -1,0 +1,71 @@
+/* Mobile & Tablet Responsive Enhancements */
+
+@media (max-width: 480px) {
+  .app-header {
+    padding: 10px 12px;
+  }
+
+  .container {
+    padding: 0 12px;
+  }
+
+  .huge-score {
+    font-size: 2rem;
+  }
+
+  .spec-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .spec-tile {
+    padding: 10px;
+  }
+
+  .spec-tile-value {
+    font-size: 0.95rem;
+  }
+}
+
+/* Floating Compare Bar */
+.floating-compare-bar {
+  position: fixed;
+  bottom: calc(var(--nav-height) + 12px);
+  left: 16px;
+  right: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgba(19, 27, 46, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-active);
+  border-radius: var(--radius-lg);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  z-index: 150;
+  animation: slideUp 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.compare-btn-primary {
+  background: var(--border-active);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+}

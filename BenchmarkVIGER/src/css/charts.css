@@ -1,0 +1,83 @@
+/* Pure CSS Horizontal Progress Bars & Comparison Charts */
+
+.chart-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.chart-header {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: var(--text-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-bar-group {
+  margin-bottom: 12px;
+}
+
+.chart-bar-group:last-child {
+  margin-bottom: 0;
+}
+
+.chart-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.chart-bar-track {
+  height: 12px;
+  background: var(--bg-input);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.chart-bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fill-ultra { background: linear-gradient(90deg, #059669, #10b981); }
+.fill-high { background: linear-gradient(90deg, #2563eb, #3b82f6); }
+.fill-mid { background: linear-gradient(90deg, #d97706, #f59e0b); }
+.fill-entry { background: linear-gradient(90deg, #475569, #64748b); }
+
+.fill-amd { background: linear-gradient(90deg, #dc2626, #ff4747); }
+.fill-intel { background: linear-gradient(90deg, #0284c7, #0071c5); }
+
+/* Compare Horizontal Multi-bar */
+.compare-chart-row {
+  margin-bottom: 16px;
+}
+
+.compare-item-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.compare-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.compare-value-num {
+  font-size: 0.9rem;
+  font-weight: 800;
+  min-width: 32px;
+}

@@ -1,0 +1,9 @@
+{
+  "appId": "com.hardware.benchmarkdb",
+  "appName": "Hardware Benchmark DB",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

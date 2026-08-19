@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ram-8gb-ddr4-3200",
+    "name": "8 GB DDR4 3200 MHz",
+    "shortName": "8GB DDR4-3200",
+    "capacity": 8,
+    "generation": "DDR4",
+    "speed": 3200,
+    "modules": 1,
+    "score": 35,
+    "manufacturer": "DDR4",
+    "scores": {
+      "overall": 35
+    }
+  },
+  {
+    "id": "ram-16gb-ddr4-3200",
+    "name": "16 GB DDR4 3200 MHz (2x8GB)",
+    "shortName": "16GB DDR4-3200 Dual",
+    "capacity": 16,
+    "generation": "DDR4",
+    "speed": 3200,
+    "modules": 2,
+    "score": 50,
+    "manufacturer": "DDR4",
+    "scores": {
+      "overall": 50
+    }
+  },
+  {
+    "id": "ram-32gb-ddr4-3200",
+    "name": "32 GB DDR4 3200 MHz (2x16GB)",
+    "shortName": "32GB DDR4-3200 Dual",
+    "capacity": 32,
+    "generation": "DDR4",
+    "speed": 3200,
+    "modules": 2,
+    "score": 62,
+    "manufacturer": "DDR4",
+    "scores": {
+      "overall": 62
+    }
+  },
+  {
+    "id": "ram-16gb-ddr5-5600",
+    "name": "16 GB DDR5 5600 MHz (2x8GB)",
+    "shortName": "16GB DDR5-5600 Dual",
+    "capacity": 16,
+    "generation": "DDR5",
+    "speed": 5600,
+    "modules": 2,
+    "score": 72,
+    "manufacturer": "DDR5",
+    "scores": {
+      "overall": 72
+    }
+  },
+  {
+    "id": "ram-32gb-ddr5-5600",
+    "name": "32 GB DDR5 5600 MHz (2x16GB)",
+    "shortName": "32GB DDR5-5600 Dual",
+    "capacity": 32,
+    "generation": "DDR5",
+    "speed": 5600,
+    "modules": 2,
+    "score": 85,
+    "manufacturer": "DDR5",
+    "scores": {
+      "overall": 85
+    }
+  },
+  {
+    "id": "ram-32gb-ddr5-6000",
+    "name": "32 GB DDR5 6000 MHz (2x16GB)",
+    "shortName": "32GB DDR5-6000 Dual",
+    "capacity": 32,
+    "generation": "DDR5",
+    "speed": 6000,
+    "modules": 2,
+    "score": 92,
+    "manufacturer": "DDR5",
+    "scores": {
+      "overall": 92
+    }
+  },
+  {
+    "id": "ram-64gb-ddr5-6000",
+    "name": "64 GB DDR5 6000 MHz (2x32GB)",
+    "shortName": "64GB DDR5-6000 Dual",
+    "capacity": 64,
+    "generation": "DDR5",
+    "speed": 6000,
+    "modules": 2,
+    "score": 100,
+    "manufacturer": "DDR5",
+    "scores": {
+      "overall": 100
+    }
+  }
+]

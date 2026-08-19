@@ -1,0 +1,121 @@
+[
+  {
+    "id": "samsung-990-pro-2tb",
+    "name": "Samsung 990 PRO 2TB",
+    "shortName": "990 PRO 2TB",
+    "manufacturer": "Samsung",
+    "capacity": "2 TB",
+    "interface": "M.2 NVMe",
+    "pcieGen": "PCIe 4.0",
+    "readSpeed": 7450,
+    "writeSpeed": 6900,
+    "endurance": "1200 TBW",
+    "msrp": 179,
+    "score": 98,
+    "scores": {
+      "overall": 98
+    }
+  },
+  {
+    "id": "wd-black-sn850x-2tb",
+    "name": "WD_BLACK SN850X 2TB",
+    "shortName": "SN850X 2TB",
+    "manufacturer": "WD",
+    "capacity": "2 TB",
+    "interface": "M.2 NVMe",
+    "pcieGen": "PCIe 4.0",
+    "readSpeed": 7300,
+    "writeSpeed": 6600,
+    "endurance": "1200 TBW",
+    "msrp": 159,
+    "score": 95,
+    "scores": {
+      "overall": 95
+    }
+  },
+  {
+    "id": "crucial-t700-2tb",
+    "name": "Crucial T700 2TB",
+    "shortName": "Crucial T700 2TB",
+    "manufacturer": "Crucial",
+    "capacity": "2 TB",
+    "interface": "M.2 NVMe",
+    "pcieGen": "PCIe 5.0",
+    "readSpeed": 12400,
+    "writeSpeed": 11800,
+    "endurance": "1200 TBW",
+    "msrp": 279,
+    "score": 100,
+    "scores": {
+      "overall": 100
+    }
+  },
+  {
+    "id": "kingston-kc3000-1tb",
+    "name": "Kingston KC3000 1TB",
+    "shortName": "KC3000 1TB",
+    "manufacturer": "Kingston",
+    "capacity": "1 TB",
+    "interface": "M.2 NVMe",
+    "pcieGen": "PCIe 4.0",
+    "readSpeed": 7000,
+    "writeSpeed": 6000,
+    "endurance": "800 TBW",
+    "msrp": 99,
+    "score": 88,
+    "scores": {
+      "overall": 88
+    }
+  },
+  {
+    "id": "lexar-nm790-1tb",
+    "name": "Lexar NM790 1TB",
+    "shortName": "Lexar NM790 1TB",
+    "manufacturer": "Lexar",
+    "capacity": "1 TB",
+    "interface": "M.2 NVMe",
+    "pcieGen": "PCIe 4.0",
+    "readSpeed": 7400,
+    "writeSpeed": 6500,
+    "endurance": "1000 TBW",
+    "msrp": 79,
+    "score": 90,
+    "scores": {
+      "overall": 90
+    }
+  },
+  {
+    "id": "crucial-p3-1tb",
+    "name": "Crucial P3 1TB",
+    "shortName": "Crucial P3 1TB",
+    "manufacturer": "Crucial",
+    "capacity": "1 TB",
+    "interface": "M.2 NVMe",
+    "pcieGen": "PCIe 3.0",
+    "readSpeed": 3500,
+    "writeSpeed": 3000,
+    "endurance": "220 TBW",
+    "msrp": 59,
+    "score": 55,
+    "scores": {
+      "overall": 55
+    }
+  },
+  {
+    "id": "samsung-870-evo-1tb",
+    "name": "Samsung 870 EVO 1TB",
+    "shortName": "870 EVO 1TB",
+    "manufacturer": "Samsung",
+    "capacity": "1 TB",
+    "interface": "2.5\" SATA III",
+    "pcieGen": "SATA 6Gb/s",
+    "readSpeed": 560,
+    "writeSpeed": 530,
+    "endurance": "600 TBW",
+    "msrp": 89,
+    "score": 32,
+    "scores": {
+      "overall": 32
+    }
+  }
+]
