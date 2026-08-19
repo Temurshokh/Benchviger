@@ -1,3 +1,19 @@
+import gpu from '../data/gpu.json';
+import cpu from '../data/cpu.json';
+import phones from '../data/phones.json';
+import ram from '../data/ram.json';
+import ssd from '../data/ssd.json';
+import psu from '../data/psu.json';
+
+const datasets = {
+  gpu,
+  cpu,
+  phones,
+  ram,
+  ssd,
+  psu
+};
+
 export class Database {
   constructor() {
     this.cache = new Map();
@@ -8,27 +24,15 @@ export class Database {
       return this.cache.get(category);
     }
 
-    try {
-      // Dynamic local fetch for PWA/Capacitor bundle compatibility
-      const response = await fetch(`./src/data/${category}.json`);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const data = await response.json();
-      this.cache.set(category, data);
-      return data;
-    } catch (err) {
-      console.warn(`Failed to fetch category '${category}' relative to root. Attempting fallback...`, err);
-      try {
-        const response = await fetch(`../src/data/${category}.json`);
-        const data = await response.json();
-        this.cache.set(category, data);
-        return data;
-      } catch (fallbackErr) {
-        console.error(`Database error loading ${category}:`, fallbackErr);
-        return [];
-      }
+    const data = datasets[category];
+
+    if (!data) {
+      console.error(`Unknown database category: ${category}`);
+      return [];
     }
+
+    this.cache.set(category, data);
+    return data;
   }
 
   async getItemById(category, id) {
