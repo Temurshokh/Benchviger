@@ -76,10 +76,11 @@
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-.badge-ultra { background: linear-gradient(135deg, #10b981, #059669); }
-.badge-high { background: linear-gradient(135deg, #3b82f6, #2563eb); }
-.badge-mid { background: linear-gradient(135deg, #f59e0b, #d97706); }
-.badge-entry { background: linear-gradient(135deg, #64748b, #475569); }
+.badge-ultra { background: linear-gradient(135deg, #22c55e, #15803d); }
+.badge-high { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+.badge-mid { background: linear-gradient(135deg, #facc15, #ca8a04); }
+.badge-neutral { background: linear-gradient(135deg, #f8fafc, #64748b); color: #111827; }
+.badge-entry { background: linear-gradient(135deg, #ef4444, #b91c1c); }
 
 /* Compact GPU specs row */
 .gpu-spec-row {
@@ -132,6 +133,7 @@
   align-items: center;
   gap: 4px;
   transition: all 0.2s;
+  min-height: 44px;
 }
 
 .compare-check-btn.selected {
@@ -187,6 +189,63 @@
   line-height: 1;
 }
 
+.score-value.badge-ultra,
+.score-value.badge-high {
+  background: none;
+  color: #4ade80;
+  padding: 0;
+}
+
+.score-value.badge-mid {
+  background: none;
+  color: #facc15;
+  padding: 0;
+}
+
+.score-value.badge-neutral {
+  background: none;
+  color: #cbd5e1;
+  padding: 0;
+}
+
+.score-value.badge-entry {
+  background: none;
+  color: #f87171;
+  padding: 0;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.settings-description {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  margin-top: 4px;
+  max-width: 560px;
+}
+
+.settings-toggle {
+  min-width: 68px;
+  border: 1px solid #64748b;
+  border-radius: 999px;
+  padding: 8px 14px;
+  background: var(--bg-input);
+  color: var(--text-secondary);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.settings-toggle.is-on {
+  border-color: #22c55e;
+  background: #166534;
+  color: #dcfce7;
+}
+
 .spec-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -230,4 +289,52 @@
   color: #60a5fa;
   text-decoration: none;
   word-break: break-all;
+}
+
+.device-image-gallery {
+  margin-top: 16px;
+}
+
+.image-gallery-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.image-gallery-source {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.image-gallery-next {
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.image-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.device-image-link {
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--bg-input);
+}
+
+.device-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }

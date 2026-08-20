@@ -3,13 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="theme-color" content="#0b0f19">
-  <title>BenchVIGER — Hardware Benchmark Database</title>
+  <title>Benchly — Hardware Benchmark Database</title>
 
-  <link rel="manifest" href="./assets/manifest-DphF82YG.json">
-  <script type="module" crossorigin src="./assets/index-BIT07-vW.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-9eW_oPPk.css">
+  <!-- App icon / favicon -->
+  <link rel="icon" type="image/png" href="./assets/logo-Cq6erU2H.png">
+
+  <link rel="manifest" href="./assets/manifest-DGueld4S.json">
+  <script type="module" crossorigin src="./assets/index-CX5VPzPc.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DfB9RYez.css">
 </head>
 
 <body>
@@ -17,16 +20,16 @@
   <!-- Sticky Top Header -->
   <header class="app-header">
     <div class="brand-title">
-      <svg class="icon-svg" style="width:24px; height:24px; fill:url(#brand-grad);" viewBox="0 0 24 24">
-        <defs>
-          <linearGradient id="brand-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#60a5fa" />
-            <stop offset="100%" stop-color="#a855f7" />
-          </linearGradient>
-        </defs>
-        <path
-          d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" />
-      </svg>
+
+      <!-- BenchVIGER PNG Logo -->
+      <img src="data:image/png;base64,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" alt="BenchVIGER" style="
+          width: 24px;
+          height: 24px;
+          object-fit: contain;
+          display: block;
+          flex-shrink: 0;
+        ">
+
       BenchVIGER
       <span class="brand-badge">BETA</span>
     </div>
@@ -35,14 +38,16 @@
       <a href="#/settings" class="icon-btn" title="Settings & Preferences" style="margin-right:6px;">
         <svg class="icon-svg" viewBox="0 0 24 24">
           <path
-            d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
+            d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64-.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
         </svg>
       </a>
+
       <a href="#/compare" class="icon-btn" title="Compare Selected Hardware">
         <svg class="icon-svg" viewBox="0 0 24 24">
           <path
             d="M10 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h5v-2H5V5h5V3zm9 0h-5v2h5v14h-5v2h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 6h2v6h-2z" />
         </svg>
+
         <span id="compare-badge-count" class="badge-count" style="display:none;">0</span>
       </a>
     </div>
@@ -66,6 +71,7 @@
     <div style="font-size:0.85rem; font-weight:700;">
       <span id="floating-count" style="color:#60a5fa;">0</span> items queued
     </div>
+
     <a href="#/compare" class="compare-btn-primary" style="text-decoration:none;">
       Compare Specs →
     </a>
@@ -73,6 +79,7 @@
 
   <!-- Bottom Navigation Bar (Mobile Native UI) -->
   <nav class="bottom-nav">
+
     <a href="#/gpu" class="nav-item active" data-nav="gpu">
       <svg viewBox="0 0 24 24">
         <path d="M4 6h16v12H4z" fill="none" />
@@ -81,6 +88,7 @@
       </svg>
       <span>GPUs</span>
     </a>
+
     <a href="#/category/cpu" class="nav-item" data-nav="cpu">
       <svg viewBox="0 0 24 24">
         <path
@@ -88,6 +96,7 @@
       </svg>
       <span>CPUs</span>
     </a>
+
     <a href="#/category/phones" class="nav-item" data-nav="phones">
       <svg viewBox="0 0 24 24">
         <path
@@ -95,6 +104,7 @@
       </svg>
       <span>Phones</span>
     </a>
+
     <a href="#/compare" class="nav-item" data-nav="compare">
       <svg viewBox="0 0 24 24">
         <path
@@ -102,13 +112,15 @@
       </svg>
       <span>Compare</span>
     </a>
+
     <a href="#/settings" class="nav-item" data-nav="settings">
       <svg viewBox="0 0 24 24">
         <path
-          d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
+          d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c.5-.38 1.03-.7 1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c-.12.22.37.29.59.22l2.39-.96c.5.38 1.03-.7 1.62-.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
       </svg>
       <span>Settings</span>
     </a>
+
   </nav>
 
   <!-- Module Entrypoint -->
@@ -117,12 +129,13 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('public/sw.js')
+        navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
           .then(reg => console.log('SW Registered'))
           .catch(err => console.warn('SW Register failed', err));
       });
     }
   </script>
+
 </body>
 
 </html>

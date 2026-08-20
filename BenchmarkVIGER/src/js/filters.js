@@ -11,7 +11,7 @@ export class FilterEngine {
     this.socket = 'ALL';
     this.scoreRange = 'ALL'; // ALL, 0-25, 25-50, 50-75, 75-100
     this.generation = 'ALL';
-    this.sortBy = 'score-desc'; // score-desc, score-asc, vram-desc, vram-asc, year-desc, year-asc, price-asc, cores-desc
+    this.sortBy = 'popularity-desc';
   }
 
   setSearchQuery(query) {
@@ -46,6 +46,19 @@ export class FilterEngine {
     this.sortBy = sortKey;
   }
 
+  getPopularityScore(item) {
+    if (typeof item.popularity === 'number') return item.popularity;
+    if (typeof item.popularityScore === 'number') return item.popularityScore;
+
+    const year = Number(item.releaseYear) || 0;
+    const score = Number(item.scores?.overall ?? item.score) || 0;
+    const price = Number(item.msrp) || 0;
+    const mainstreamBonus = price > 0 && price <= 800 ? 18 : 0;
+    const recentBonus = Math.max(0, Math.min(20, (year - 2018) * 2));
+
+    return recentBonus + mainstreamBonus + score * 0.35;
+  }
+
   reset() {
     this.searchQuery = '';
     this.manufacturer = 'ALL';
@@ -54,7 +67,7 @@ export class FilterEngine {
     this.socket = 'ALL';
     this.scoreRange = 'ALL';
     this.generation = 'ALL';
-    this.sortBy = 'score-desc';
+    this.sortBy = 'popularity-desc';
   }
 
   apply(items) {
@@ -63,14 +76,12 @@ export class FilterEngine {
     let filtered = items.filter(item => {
       // 1. Text Search (Matches shortName, full name, architecture, manufacturer, socket, cores, SoC)
       if (this.searchQuery) {
-        const nameMatch = (item.name || '').toLowerCase().includes(this.searchQuery);
-        const shortMatch = (item.shortName || '').toLowerCase().includes(this.searchQuery);
-        const archMatch = (item.architecture || '').toLowerCase().includes(this.searchQuery);
-        const vendorMatch = (item.manufacturer || '').toLowerCase().includes(this.searchQuery);
-        const socketMatch = (item.socket || '').toLowerCase().includes(this.searchQuery);
-        const socMatch = (item.soc || '').toLowerCase().includes(this.searchQuery);
+        const searchableText = Object.values(item)
+          .filter(value => ['string', 'number'].includes(typeof value))
+          .join(' ')
+          .toLowerCase();
 
-        if (!nameMatch && !shortMatch && !archMatch && !vendorMatch && !socketMatch && !socMatch) {
+        if (!searchableText.includes(this.searchQuery)) {
           return false;
         }
       }
@@ -124,8 +135,12 @@ export class FilterEngine {
       const yearB = b.releaseYear || 0;
       const priceA = a.msrp || 99999;
       const priceB = b.msrp || 99999;
+      const popularityA = this.getPopularityScore(a);
+      const popularityB = this.getPopularityScore(b);
 
       switch (this.sortBy) {
+        case 'popularity-desc':
+          return popularityB - popularityA || scoreB - scoreA;
         case 'score-asc':
           return scoreA - scoreB;
         case 'vram-desc':

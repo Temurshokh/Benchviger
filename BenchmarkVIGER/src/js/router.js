@@ -3,9 +3,11 @@
  */
 
 export class Router {
-  constructor(routes = {}) {
+  constructor(routes = {}, options = {}) {
     this.routes = routes;
     this.currentRoute = '';
+    this.onError = options.onError || ((error) => console.error('Route render failed', error));
+    this.pendingRoute = Promise.resolve();
     
     window.addEventListener('hashchange', () => this.handleRoute());
   }
@@ -24,14 +26,14 @@ export class Router {
     const mainRoute = parts[0] || 'gpu';
     const param = parts[1] || null;
 
-    if (this.routes[mainRoute]) {
-      this.routes[mainRoute](param);
-    } else {
-      // Default fallback
-      if (this.routes['gpu']) {
-        this.routes['gpu']();
-      }
-    }
+    const routeHandler = this.routes[mainRoute] || this.routes['gpu'];
+    if (!routeHandler) return;
+
+    this.pendingRoute = this.pendingRoute
+      .then(() => routeHandler(param))
+      .catch(error => this.onError(error));
+
+    return this.pendingRoute;
   }
 
   navigate(hash) {

@@ -27,8 +27,11 @@ export class Database {
     const data = datasets[category];
 
     if (!data) {
-      console.error(`Unknown database category: ${category}`);
-      return [];
+      throw new Error(`Unknown database category: ${category}`);
+    }
+
+    if (!Array.isArray(data)) {
+      throw new Error(`Database category "${category}" is not a valid array`);
     }
 
     this.cache.set(category, data);

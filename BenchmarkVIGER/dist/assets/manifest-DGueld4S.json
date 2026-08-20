@@ -1,6 +1,6 @@
 {
-  "short_name": "Benchly",
-  "name": "Benchly — Hardware Benchmark Database",
+  "short_name": "HardwareDB",
+  "name": "Hardware Benchmark Database",
   "icons": [
     {
       "src": "favicon.ico",

@@ -19,7 +19,7 @@ function calcScores(benchmarks, arch, manufacturer) {
 
   const tsNorm = benchmarks.timeSpyExtreme / FLAGSHIP.timeSpyExtreme;
   const cpNorm = benchmarks.cyberpunk4kUltra ? (benchmarks.cyberpunk4kUltra / FLAGSHIP.cyberpunk4kUltra) : (tsNorm * 0.9);
-  
+
   let blenderNorm = 0;
   if (benchmarks.blenderRenderSec && benchmarks.blenderRenderSec > 0) {
     blenderNorm = FLAGSHIP.blenderRenderSec / benchmarks.blenderRenderSec;
@@ -194,7 +194,7 @@ for (const model of newModels) {
     benchmarkSource: {
       sourceName: "TechPowerUp / 3DMark Public Database",
       sourceUrl: "https://www.techpowerup.com/gpu-specs/",
-      testDate: `${model.releaseYear}-0${model.releaseQuarter ? model.releaseQuarter.replace('Q','') : '1'}`
+      testDate: `${model.releaseYear}-0${model.releaseQuarter ? model.releaseQuarter.replace('Q', '') : '1'}`
     }
   };
 
@@ -208,8 +208,189 @@ const finalGpus = Array.from(existingMap.values()).map(gpu => {
   return gpu;
 });
 
-// Sort initially by overall score descending
-finalGpus.sort((a, b) => b.scores.overall - a.scores.overall);
+// ============================================================
+// POPULARITY ORDER
+// ============================================================
+// Чем выше число — тем популярнее модель.
+// Популярность важнее производительности.
+// Если две модели имеют одинаковый popularityScore,
+// выше ставится более производительная.
+//
+// TOP → POPULAR → MAINSTREAM → OLDER → NICHE
+// ============================================================
 
+const GPU_POPULARITY = {
+  // NVIDIA RTX 50
+  'rtx-5090': 1000,
+  'rtx-5080': 995,
+  'rtx-5070-ti': 990,
+  'rtx-5070': 985,
+  'rtx-5060-ti': 975,
+  'rtx-5060': 970,
+  'rtx-5050': 965,
+
+  // NVIDIA RTX 40
+  'rtx-4090': 960,
+  'rtx-4080-super': 955,
+  'rtx-4080': 950,
+  'rtx-4070-ti-super': 945,
+  'rtx-4070-ti': 940,
+  'rtx-4070-super': 935,
+  'rtx-4070': 930,
+  'rtx-4060-ti': 920,
+  'rtx-4060': 915,
+  'rtx-4050': 900,
+
+  // NVIDIA RTX 30
+  'rtx-3090-ti': 895,
+  'rtx-3090': 890,
+  'rtx-3080-ti': 885,
+  'rtx-3080': 880,
+  'rtx-3070-ti': 875,
+  'rtx-3070': 870,
+  'rtx-3060-ti': 865,
+  'rtx-3060': 860,
+  'rtx-3050-ti': 845,
+  'rtx-3050': 840,
+
+  // NVIDIA RTX 20
+  'rtx-2080-ti': 825,
+  'rtx-2080-super': 820,
+  'rtx-2080': 815,
+  'rtx-2070-super': 810,
+  'rtx-2070': 805,
+  'rtx-2060-super': 800,
+  'rtx-2060': 795,
+
+  // NVIDIA GTX 16
+  'gtx-1660-ti': 780,
+  'gtx-1660-super': 775,
+  'gtx-1660': 770,
+  'gtx-1650-super': 765,
+  'gtx-1650': 760,
+
+  // NVIDIA GTX 10
+  'gtx-1080-ti': 745,
+  'gtx-1080': 740,
+  'gtx-1070-ti': 735,
+  'gtx-1070': 730,
+  'gtx-1060-6gb': 725,
+  'gtx-1060-3gb': 720,
+  'gtx-1050-ti': 710,
+  'gtx-1050': 705,
+
+  // AMD RX 9000
+  'rx-9070-xt': 700,
+  'rx-9070': 695,
+  'rx-9060-xt': 690,
+  'rx-9060': 685,
+
+  // AMD RX 7000
+  'rx-7900-xtx': 680,
+  'rx-7900-xt': 675,
+  'rx-7900-gre': 670,
+  'rx-7800-xt': 665,
+  'rx-7700-xt': 660,
+  'rx-7600-xt': 655,
+  'rx-7600': 650,
+
+  // AMD RX 6000
+  'rx-6950-xt': 640,
+  'rx-6900-xt': 635,
+  'rx-6800-xt': 630,
+  'rx-6800': 625,
+  'rx-6750-xt': 620,
+  'rx-6700-xt': 615,
+  'rx-6650-xt': 610,
+  'rx-6600-xt': 605,
+  'rx-6600': 600,
+  'rx-6500-xt': 590,
+  'rx-6400': 585,
+
+  // AMD RX 5000
+  'rx-5700-xt': 570,
+  'rx-5700': 565,
+  'rx-5600-xt': 560,
+  'rx-5500-xt': 555,
+
+  // AMD RX 500
+  'rx-590': 535,
+  'rx-580': 530,
+  'rx-570': 525,
+  'rx-560': 520,
+  'rx-550': 515,
+
+  // Intel Arc
+  'arc-b580': 500,
+  'arc-b570': 495,
+  'arc-a770': 490,
+  'arc-a750': 485,
+  'arc-a580': 480,
+  'arc-a380': 470,
+
+  // Older NVIDIA
+  'gtx-980-ti': 420,
+  'gtx-980': 415,
+  'gtx-970': 410,
+  'gtx-960': 405,
+  'gtx-780-ti': 390,
+  'gtx-780': 385,
+  'gtx-770': 380,
+  'gtx-760': 375,
+  'gtx-750-ti': 370,
+  'gtx-750': 365,
+
+  // Older AMD
+  'vega-64': 350,
+  'vega-56': 345,
+  'r9-fury-x': 330,
+  'r9-fury': 325,
+  'r9-390x': 320,
+  'r9-390': 315,
+  'r9-380': 310,
+
+  // Mining / OEM / niche
+  'p104-100': 100,
+  'p106-100': 95,
+  'p106-90': 90
+};
+
+function getGpuPopularity(gpu) {
+  if (GPU_POPULARITY[gpu.id] !== undefined) {
+    return GPU_POPULARITY[gpu.id];
+  }
+
+  // Неизвестные модели идут ниже известных.
+  // При этом новые/современные модели получают небольшой бонус.
+  const year = Number(gpu.releaseYear) || 0;
+
+  if (year >= 2025) return 450;
+  if (year >= 2023) return 400;
+  if (year >= 2020) return 300;
+  if (year >= 2017) return 200;
+  if (year >= 2014) return 100;
+
+  return 50;
+}
+
+// Popularity first, performance second.
+finalGpus.sort((a, b) => {
+  const popularityA = getGpuPopularity(a);
+  const popularityB = getGpuPopularity(b);
+
+  if (popularityA !== popularityB) {
+    return popularityB - popularityA;
+  }
+
+  return b.scores.overall - a.scores.overall;
+});
+
+fs.writeFileSync(gpuPath, JSON.stringify(finalGpus, null, 2), 'utf8');
+
+console.log(
+  'Successfully expanded GPU database to',
+  finalGpus.length,
+  'models.'
+);
 fs.writeFileSync(gpuPath, JSON.stringify(finalGpus, null, 2), 'utf8');
 console.log('Successfully expanded GPU database to', finalGpus.length, 'models.');

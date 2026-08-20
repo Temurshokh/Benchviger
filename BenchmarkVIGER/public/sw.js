@@ -1,31 +1,8 @@
-const CACHE_NAME = 'benchviger-v1.5';
-const ASSETS = [
-  './',
-  './index.html',
-  './src/css/main.css',
-  './src/css/components.css',
-  './src/css/charts.css',
-  './src/css/mobile.css',
-  './src/js/app.js',
-  './src/js/database.js',
-  './src/js/scoring.js',
-  './src/js/comparison.js',
-  './src/js/filters.js',
-  './src/js/router.js',
-  './src/js/ui.js',
-  './src/data/gpu.json',
-  './src/data/cpu.json',
-  './src/data/ssd.json',
-  './src/data/ram.json',
-  './src/data/phones.json',
-  './src/data/psu.json'
-];
+const CACHE_NAME = 'benchly-v1';
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS);
-    })
+    caches.open(CACHE_NAME).then((cache) => cache.add('./'))
   );
   self.skipWaiting();
 });
@@ -46,9 +23,17 @@ self.addEventListener('activate', (e) => {
 });
 
 self.addEventListener('fetch', (e) => {
+  if (new URL(e.request.url).origin !== self.location.origin) return;
+
   e.respondWith(
-    caches.match(e.request).then((cachedResponse) => {
-      return cachedResponse || fetch(e.request);
-    })
+    fetch(e.request)
+      .then(response => {
+        if (response.ok && e.request.method === 'GET') {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(e.request, copy));
+        }
+        return response;
+      })
+      .catch(() => caches.match(e.request))
   );
 });

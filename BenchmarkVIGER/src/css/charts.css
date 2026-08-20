@@ -50,10 +50,11 @@
   transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fill-ultra { background: linear-gradient(90deg, #059669, #10b981); }
-.fill-high { background: linear-gradient(90deg, #2563eb, #3b82f6); }
+.fill-ultra { background: linear-gradient(90deg, #16a34a, #4ade80); }
+.fill-high { background: linear-gradient(90deg, #2563eb, #60a5fa); }
 .fill-mid { background: linear-gradient(90deg, #d97706, #f59e0b); }
-.fill-entry { background: linear-gradient(90deg, #475569, #64748b); }
+.fill-neutral { background: linear-gradient(90deg, #64748b, #e2e8f0); }
+.fill-entry { background: linear-gradient(90deg, #dc2626, #f87171); }
 
 .fill-amd { background: linear-gradient(90deg, #dc2626, #ff4747); }
 .fill-intel { background: linear-gradient(90deg, #0284c7, #0071c5); }

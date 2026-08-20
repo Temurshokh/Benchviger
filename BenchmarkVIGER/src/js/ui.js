@@ -29,7 +29,7 @@ export function renderHardwareCard(item, category = 'gpu') {
     return `
       <div class="gpu-card ${isCompact ? 'gpu-card-compact' : ''}" id="card-${item.id}">
         <div class="gpu-card-header">
-          <div class="gpu-name-wrapper">
+          <div class="gpu-name-wrapper" onclick="window.location.hash='${detailHash}'" style="cursor:pointer;">
             <div class="gpu-vendor-tag vendor-intel">${item.generation} Memory</div>
             <div class="gpu-name">${item.name}</div>
           </div>
@@ -292,7 +292,7 @@ export function renderPhoneDetails(item) {
         <div class="detail-score-box">
           <div>
             <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Hardware Performance Index</div>
-            <div class="huge-score" style="color: var(--text-primary);">${scoreNum} <span style="font-size: 1.1rem; color: var(--text-muted); font-weight: 400;">/ 100</span></div>
+            <div class="huge-score score-value ${badgeClass}">${scoreNum} <span style="font-size: 1.1rem; color: var(--text-muted); font-weight: 400;">/ 100</span></div>
           </div>
           <button class="compare-check-btn ${isSelected ? 'selected' : ''}" data-id="${item.id}" data-cat="phones" style="padding: 8px 16px; font-size: 0.85rem;">
             ${isSelected ? '✓ In Comparison' : '+ Compare Device'}
@@ -409,7 +409,7 @@ export function renderCpuDetails(item) {
         <div class="detail-score-box">
           <div>
             <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">CPU Performance Index</div>
-            <div class="huge-score" style="color: var(--text-primary);">${scoreNum} <span style="font-size: 1.1rem; color: var(--text-muted); font-weight: 400;">/ 100</span></div>
+            <div class="huge-score score-value ${badgeClass}">${scoreNum} <span style="font-size: 1.1rem; color: var(--text-muted); font-weight: 400;">/ 100</span></div>
           </div>
           <button class="compare-check-btn ${isSelected ? 'selected' : ''}" data-id="${item.id}" data-cat="cpu" style="padding: 8px 16px; font-size: 0.85rem;">
             ${isSelected ? '✓ In Comparison' : '+ Compare Processor'}
@@ -547,7 +547,7 @@ export function renderGpuDetails(item) {
         <div class="detail-score-box">
           <div>
             <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Performance Score</div>
-            <div class="huge-score" style="color: var(--text-primary);">${item.scores.overall} <span style="font-size: 1.1rem; color: var(--text-muted); font-weight: 400;">/ 100</span></div>
+            <div class="huge-score score-value ${badgeClass}">${item.scores.overall} <span style="font-size: 1.1rem; color: var(--text-muted); font-weight: 400;">/ 100</span></div>
           </div>
           <button class="compare-check-btn ${isSelected ? 'selected' : ''}" data-id="${item.id}" data-cat="gpu" style="padding: 8px 16px; font-size: 0.85rem;">
             ${isSelected ? '✓ In Comparison' : '+ Compare Device'}
@@ -661,6 +661,48 @@ export function renderGpuDetails(item) {
   `;
 }
 
+export function renderComponentDetails(item, category) {
+  const categoryTitle = category.toUpperCase();
+  const score = item.scores?.overall || item.score || 0;
+  const badgeClass = getScoreBadgeColorClass(score);
+  const valueInfo = calculateValueRating(score, item.msrp);
+  const fields = Object.entries(item).filter(([key, value]) =>
+    !['id', 'name', 'shortName', 'scores', 'benchmarks', 'benchmarkSource', 'msrp'].includes(key) &&
+    ['string', 'number', 'boolean'].includes(typeof value)
+  );
+  const backPath = category === 'gpu' ? '#/gpu' : `#/category/${category}`;
+
+  return `
+    <div class="container" style="padding-top:16px;">
+      <a href="${backPath}" style="color:#60a5fa; text-decoration:none; font-size:0.88rem; font-weight:600; display:inline-flex; margin-bottom:14px;">← Back to ${categoryTitle}</a>
+      <div class="detail-hero">
+        <div class="gpu-vendor-tag vendor-intel" style="font-size:0.85rem;">${item.manufacturer || categoryTitle}</div>
+        <h1 style="font-size:1.6rem; font-weight:800; margin:4px 0 12px 0;">${item.name || item.shortName || item.id}</h1>
+        <div class="detail-score-box">
+          <div>
+            <div style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase;">Hardware Performance Index</div>
+            <div class="huge-score score-value ${badgeClass}">${score} <span style="font-size:1.1rem; color:var(--text-muted); font-weight:400;">/ 100</span></div>
+          </div>
+          <button class="compare-check-btn" data-id="${item.id}" data-cat="${category}" style="padding:8px 16px; font-size:0.85rem;">+ Compare Device</button>
+        </div>
+      </div>
+      <h3 class="section-title">${categoryTitle} Specifications</h3>
+      <div class="spec-grid">
+        ${fields.map(([key, value]) => `
+          <div class="spec-tile">
+            <div class="spec-tile-label">${key.replace(/([A-Z])/g, ' $1')}</div>
+            <div class="spec-tile-value">${value}</div>
+          </div>
+        `).join('')}
+      </div>
+      <div class="chart-card">
+        <div class="chart-header"><span>Price / Performance Rating</span><span class="star-rating">${valueInfo.stars}</span></div>
+        <div style="font-size:0.85rem; color:var(--text-secondary);">Value Index: <strong>${valueInfo.ratio}</strong> pts / $100</div>
+      </div>
+    </div>
+  `;
+}
+
 export function renderComparisonPage(items, category = 'gpu') {
   const catTitle = category.toUpperCase();
   if (!items || items.length === 0) {
@@ -694,12 +736,13 @@ export function renderComparisonPage(items, category = 'gpu') {
         ${items.map(item => {
           const score = item.scores?.overall || item.score || 0;
           const pct = Math.max(0, Math.min(100, score));
+          const scoreClass = getScoreBadgeColorClass(score).replace('badge-', 'fill-');
           return `
             <div class="compare-chart-row">
               <div class="compare-item-name">${item.shortName || item.name} (${item.manufacturer})</div>
               <div class="compare-bar-container">
                 <div class="chart-bar-track" style="flex:1;">
-                  <div class="chart-bar-fill fill-high" style="width: ${pct}%"></div>
+                  <div class="chart-bar-fill ${scoreClass}" style="width: ${pct}%"></div>
                 </div>
                 <div class="compare-value-num">${score}</div>
               </div>

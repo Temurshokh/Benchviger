@@ -30,6 +30,126 @@
     }
   },
   {
+    "id": "rtx-5090-d",
+    "name": "NVIDIA GeForce RTX 5090 D",
+    "shortName": "RTX 5090 D",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2025,
+    "releaseQuarter": "Q1",
+    "vram": 32,
+    "memoryType": "GDDR7",
+    "memoryBus": 512,
+    "power": 575,
+    "architecture": "Blackwell",
+    "msrp": 1999,
+    "scores": {
+      "overall": 98,
+      "gaming": 98,
+      "rayTracing": 94,
+      "productivity": 95
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 24060,
+      "cyberpunk4kUltra": 93.1,
+      "blenderRenderSec": 93.6
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rtx-5090-d-v2",
+    "name": "NVIDIA GeForce RTX 5090 D V2",
+    "shortName": "RTX 5090 D V2",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2025,
+    "releaseQuarter": "Q3",
+    "vram": 24,
+    "memoryType": "GDDR7",
+    "memoryBus": 384,
+    "power": 575,
+    "architecture": "Blackwell",
+    "msrp": 2299,
+    "scores": {
+      "overall": 97,
+      "gaming": 97,
+      "rayTracing": 93,
+      "productivity": 94
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 23815,
+      "cyberpunk4kUltra": 92.1,
+      "blenderRenderSec": 94.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rtx-5080-super",
+    "name": "NVIDIA GeForce RTX 5080 SUPER",
+    "shortName": "RTX 5080 SUPER",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2026,
+    "releaseQuarter": "Q1",
+    "vram": 24,
+    "memoryType": "GDDR7",
+    "memoryBus": 256,
+    "power": 415,
+    "architecture": "Blackwell",
+    "msrp": 999,
+    "scores": {
+      "overall": 90,
+      "gaming": 90,
+      "rayTracing": 86,
+      "productivity": 87
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 22100,
+      "cyberpunk4kUltra": 85.5,
+      "blenderRenderSec": 101.2
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rtx-4090-d",
+    "name": "NVIDIA GeForce RTX 4090 D",
+    "shortName": "RTX 4090 D",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2024,
+    "releaseQuarter": "Q1",
+    "vram": 24,
+    "memoryType": "GDDR6X",
+    "memoryBus": 384,
+    "power": 425,
+    "architecture": "Ada Lovelace",
+    "msrp": 1599,
+    "scores": {
+      "overall": 88,
+      "gaming": 88,
+      "rayTracing": 84,
+      "productivity": 85
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 21610,
+      "cyberpunk4kUltra": 83.6,
+      "blenderRenderSec": 103.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rtx-5080",
     "name": "NVIDIA GeForce RTX 5080",
     "shortName": "RTX 5080",
@@ -87,6 +207,36 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/geforce-rtx-4090.c3889",
       "testDate": "2022-10"
+    }
+  },
+  {
+    "id": "rtx-5070-super",
+    "name": "NVIDIA GeForce RTX 5070 SUPER",
+    "shortName": "RTX 5070 SUPER",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2026,
+    "releaseQuarter": "Q1",
+    "vram": 18,
+    "memoryType": "GDDR7",
+    "memoryBus": 192,
+    "power": 250,
+    "architecture": "Blackwell",
+    "msrp": 649,
+    "scores": {
+      "overall": 72,
+      "gaming": 72,
+      "rayTracing": 69,
+      "productivity": 70
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 17690,
+      "cyberpunk4kUltra": 68.4,
+      "blenderRenderSec": 124.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -210,6 +360,36 @@
     }
   },
   {
+    "id": "rx-7900-xtx-24gb",
+    "name": "AMD Radeon RX 7900 XTX 24 GB",
+    "shortName": "RX 7900 XTX 24 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q4",
+    "vram": 24,
+    "memoryType": "GDDR6",
+    "memoryBus": 384,
+    "power": 355,
+    "architecture": "RDNA 3",
+    "msrp": 999,
+    "scores": {
+      "overall": 68,
+      "gaming": 68,
+      "rayTracing": 49,
+      "productivity": 66
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 16710,
+      "cyberpunk4kUltra": 64.6,
+      "blenderRenderSec": 130.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rtx-4080",
     "name": "NVIDIA GeForce RTX 4080",
     "shortName": "RTX 4080",
@@ -237,6 +417,66 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2022-04"
+    }
+  },
+  {
+    "id": "rtx-4070-ti-super-16gb",
+    "name": "NVIDIA GeForce RTX 4070 Ti SUPER 16 GB",
+    "shortName": "RTX 4070 Ti SUPER 16 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2024,
+    "releaseQuarter": "Q1",
+    "vram": 16,
+    "memoryType": "GDDR6X",
+    "memoryBus": 256,
+    "power": 285,
+    "architecture": "Ada Lovelace",
+    "msrp": 799,
+    "scores": {
+      "overall": 64,
+      "gaming": 64,
+      "rayTracing": 61,
+      "productivity": 62
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 15730,
+      "cyberpunk4kUltra": 60.8,
+      "blenderRenderSec": 137.8
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rtx-3090-24gb",
+    "name": "NVIDIA GeForce RTX 3090 24 GB",
+    "shortName": "RTX 3090 24 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2020,
+    "releaseQuarter": "Q4",
+    "vram": 24,
+    "memoryType": "GDDR6X",
+    "memoryBus": 384,
+    "power": 350,
+    "architecture": "Ampere",
+    "msrp": 1499,
+    "scores": {
+      "overall": 61,
+      "gaming": 61,
+      "rayTracing": 59,
+      "productivity": 59
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 14995,
+      "cyberpunk4kUltra": 57.9,
+      "blenderRenderSec": 143.8
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -330,6 +570,36 @@
     }
   },
   {
+    "id": "rx-7900-xt-20gb",
+    "name": "AMD Radeon RX 7900 XT 20 GB",
+    "shortName": "RX 7900 XT 20 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q4",
+    "vram": 20,
+    "memoryType": "GDDR6",
+    "memoryBus": 320,
+    "power": 315,
+    "architecture": "RDNA 3",
+    "msrp": 899,
+    "scores": {
+      "overall": 59,
+      "gaming": 59,
+      "rayTracing": 42,
+      "productivity": 57
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 14505,
+      "cyberpunk4kUltra": 56.0,
+      "blenderRenderSec": 148.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rtx-5070",
     "name": "NVIDIA GeForce RTX 5070",
     "shortName": "RTX 5070",
@@ -387,6 +657,66 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/radeon-rx-7900-xt.c3912",
       "testDate": "2022-12"
+    }
+  },
+  {
+    "id": "rtx-4070-super-12gb",
+    "name": "NVIDIA GeForce RTX 4070 SUPER 12 GB",
+    "shortName": "RTX 4070 SUPER 12 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2024,
+    "releaseQuarter": "Q1",
+    "vram": 12,
+    "memoryType": "GDDR6X",
+    "memoryBus": 192,
+    "power": 220,
+    "architecture": "Ada Lovelace",
+    "msrp": 599,
+    "scores": {
+      "overall": 58,
+      "gaming": 58,
+      "rayTracing": 56,
+      "productivity": 56
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 14260,
+      "cyberpunk4kUltra": 55.1,
+      "blenderRenderSec": 150.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rtx-3080-12gb",
+    "name": "NVIDIA GeForce RTX 3080 12 GB",
+    "shortName": "RTX 3080 12 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q1",
+    "vram": 12,
+    "memoryType": "GDDR6X",
+    "memoryBus": 384,
+    "power": 350,
+    "architecture": "Ampere",
+    "msrp": 799,
+    "scores": {
+      "overall": 57,
+      "gaming": 57,
+      "rayTracing": 55,
+      "productivity": 55
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 14015,
+      "cyberpunk4kUltra": 54.1,
+      "blenderRenderSec": 152.6
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -450,6 +780,96 @@
     }
   },
   {
+    "id": "rtx-5060-ti-8gb",
+    "name": "NVIDIA GeForce RTX 5060 Ti 8 GB",
+    "shortName": "RTX 5060 Ti 8 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2025,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR7",
+    "memoryBus": 128,
+    "power": 180,
+    "architecture": "Blackwell",
+    "msrp": 379,
+    "scores": {
+      "overall": 55,
+      "gaming": 55,
+      "rayTracing": 53,
+      "productivity": 53
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 13525,
+      "cyberpunk4kUltra": 52.2,
+      "blenderRenderSec": 157.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6950-xt-16gb",
+    "name": "AMD Radeon RX 6950 XT 16 GB",
+    "shortName": "RX 6950 XT 16 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q2",
+    "vram": 16,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 335,
+    "architecture": "RDNA 2",
+    "msrp": 1099,
+    "scores": {
+      "overall": 54,
+      "gaming": 54,
+      "rayTracing": 39,
+      "productivity": 52
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 13280,
+      "cyberpunk4kUltra": 51.3,
+      "blenderRenderSec": 160.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-9070-gre",
+    "name": "AMD Radeon RX 9070 GRE",
+    "shortName": "RX 9070 GRE",
+    "manufacturer": "AMD",
+    "releaseYear": 2025,
+    "releaseQuarter": "Q2",
+    "vram": 12,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 220,
+    "architecture": "RDNA 4",
+    "msrp": 549,
+    "scores": {
+      "overall": 53,
+      "gaming": 53,
+      "rayTracing": 38,
+      "productivity": 51
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 13035,
+      "cyberpunk4kUltra": 50.3,
+      "blenderRenderSec": 162.6
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rtx-3080-ti",
     "name": "NVIDIA GeForce RTX 3080 Ti",
     "shortName": "RTX 3080 Ti",
@@ -507,6 +927,36 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2023-03"
+    }
+  },
+  {
+    "id": "rx-7800-xt-16gb",
+    "name": "AMD Radeon RX 7800 XT 16 GB",
+    "shortName": "RX 7800 XT 16 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2023,
+    "releaseQuarter": "Q3",
+    "vram": 16,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 263,
+    "architecture": "RDNA 3",
+    "msrp": 499,
+    "scores": {
+      "overall": 52,
+      "gaming": 52,
+      "rayTracing": 37,
+      "productivity": 50
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 12790,
+      "cyberpunk4kUltra": 49.4,
+      "blenderRenderSec": 165.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -570,6 +1020,36 @@
     }
   },
   {
+    "id": "rtx-5060-12gb",
+    "name": "NVIDIA GeForce RTX 5060 12 GB",
+    "shortName": "RTX 5060 12 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2026,
+    "releaseQuarter": "Q2",
+    "vram": 12,
+    "memoryType": "GDDR7",
+    "memoryBus": 128,
+    "power": 170,
+    "architecture": "Blackwell",
+    "msrp": 329,
+    "scores": {
+      "overall": 50,
+      "gaming": 50,
+      "rayTracing": 48,
+      "productivity": 48
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 12300,
+      "cyberpunk4kUltra": 47.5,
+      "blenderRenderSec": 171.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rtx-3080",
     "name": "NVIDIA GeForce RTX 3080",
     "shortName": "RTX 3080",
@@ -597,6 +1077,36 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/geforce-rtx-3080.c3621",
       "testDate": "2020-09"
+    }
+  },
+  {
+    "id": "rtx-3070-16gb",
+    "name": "NVIDIA GeForce RTX 3070 16 GB",
+    "shortName": "RTX 3070 16 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2021,
+    "releaseQuarter": "Q1",
+    "vram": 16,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 220,
+    "architecture": "Ampere",
+    "msrp": 499,
+    "scores": {
+      "overall": 48,
+      "gaming": 48,
+      "rayTracing": 46,
+      "productivity": 47
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 11810,
+      "cyberpunk4kUltra": 45.6,
+      "blenderRenderSec": 177.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -720,6 +1230,36 @@
     }
   },
   {
+    "id": "rx-7700-xt-12gb",
+    "name": "AMD Radeon RX 7700 XT 12 GB",
+    "shortName": "RX 7700 XT 12 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2023,
+    "releaseQuarter": "Q3",
+    "vram": 12,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 245,
+    "architecture": "RDNA 3",
+    "msrp": 449,
+    "scores": {
+      "overall": 45,
+      "gaming": 45,
+      "rayTracing": 32,
+      "productivity": 44
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 11075,
+      "cyberpunk4kUltra": 42.8,
+      "blenderRenderSec": 187.2
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rx-6800-xt",
     "name": "AMD Radeon RX 6800 XT",
     "shortName": "RX 6800 XT",
@@ -777,6 +1317,186 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2025-02"
+    }
+  },
+  {
+    "id": "rtx-5050-16gb",
+    "name": "NVIDIA GeForce RTX 5050 16 GB",
+    "shortName": "RTX 5050 16 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2026,
+    "releaseQuarter": "Q2",
+    "vram": 16,
+    "memoryType": "GDDR7",
+    "memoryBus": 128,
+    "power": 145,
+    "architecture": "Blackwell",
+    "msrp": 299,
+    "scores": {
+      "overall": 43,
+      "gaming": 43,
+      "rayTracing": 41,
+      "productivity": 42
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 10585,
+      "cyberpunk4kUltra": 40.9,
+      "blenderRenderSec": 194.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-9060-xt-16gb",
+    "name": "AMD Radeon RX 9060 XT 16 GB",
+    "shortName": "RX 9060 XT 16 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2025,
+    "releaseQuarter": "Q2",
+    "vram": 16,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 160,
+    "architecture": "RDNA 4",
+    "msrp": 349,
+    "scores": {
+      "overall": 43,
+      "gaming": 43,
+      "rayTracing": 31,
+      "productivity": 42
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 10585,
+      "cyberpunk4kUltra": 40.9,
+      "blenderRenderSec": 194.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rtx-3060-ti-gddr6x",
+    "name": "NVIDIA GeForce RTX 3060 Ti GDDR6X",
+    "shortName": "RTX 3060 Ti GDDR6X",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q4",
+    "vram": 8,
+    "memoryType": "GDDR6X",
+    "memoryBus": 256,
+    "power": 225,
+    "architecture": "Ampere",
+    "msrp": 399,
+    "scores": {
+      "overall": 42,
+      "gaming": 42,
+      "rayTracing": 40,
+      "productivity": 41
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 10340,
+      "cyberpunk4kUltra": 39.9,
+      "blenderRenderSec": 198.4
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6750-xt-12gb",
+    "name": "AMD Radeon RX 6750 XT 12 GB",
+    "shortName": "RX 6750 XT 12 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q2",
+    "vram": 12,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 250,
+    "architecture": "RDNA 2",
+    "msrp": 549,
+    "scores": {
+      "overall": 41,
+      "gaming": 41,
+      "rayTracing": 30,
+      "productivity": 40
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 10095,
+      "cyberpunk4kUltra": 38.9,
+      "blenderRenderSec": 202.4
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rtx-4060-ti-16gb",
+    "name": "NVIDIA GeForce RTX 4060 Ti 16 GB",
+    "shortName": "RTX 4060 Ti 16 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2023,
+    "releaseQuarter": "Q3",
+    "vram": 16,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 165,
+    "architecture": "Ada Lovelace",
+    "msrp": 499,
+    "scores": {
+      "overall": 40,
+      "gaming": 40,
+      "rayTracing": 38,
+      "productivity": 39
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 9850,
+      "cyberpunk4kUltra": 38.0,
+      "blenderRenderSec": 206.7
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-9060-xt-8gb",
+    "name": "AMD Radeon RX 9060 XT 8 GB",
+    "shortName": "RX 9060 XT 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2025,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 150,
+    "architecture": "RDNA 4",
+    "msrp": 299,
+    "scores": {
+      "overall": 39,
+      "gaming": 39,
+      "rayTracing": 28,
+      "productivity": 38
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 9605,
+      "cyberpunk4kUltra": 37.0,
+      "blenderRenderSec": 211.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -870,6 +1590,96 @@
     }
   },
   {
+    "id": "rtx-4060-ti-8gb",
+    "name": "NVIDIA GeForce RTX 4060 Ti 8 GB",
+    "shortName": "RTX 4060 Ti 8 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2023,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 160,
+    "architecture": "Ada Lovelace",
+    "msrp": 399,
+    "scores": {
+      "overall": 38,
+      "gaming": 38,
+      "rayTracing": 36,
+      "productivity": 37
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 9360,
+      "cyberpunk4kUltra": 36.1,
+      "blenderRenderSec": 215.7
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-9060-xt-low-profile",
+    "name": "AMD Radeon RX 9060 XT LP 16 GB",
+    "shortName": "RX 9060 XT LP 16 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2025,
+    "releaseQuarter": "Q2",
+    "vram": 16,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 140,
+    "architecture": "RDNA 4",
+    "msrp": 349,
+    "scores": {
+      "overall": 38,
+      "gaming": 38,
+      "rayTracing": 27,
+      "productivity": 37
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 9360,
+      "cyberpunk4kUltra": 36.1,
+      "blenderRenderSec": 215.7
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6800-16gb",
+    "name": "AMD Radeon RX 6800 16 GB",
+    "shortName": "RX 6800 16 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2020,
+    "releaseQuarter": "Q4",
+    "vram": 16,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 250,
+    "architecture": "RDNA 2",
+    "msrp": 579,
+    "scores": {
+      "overall": 38,
+      "gaming": 38,
+      "rayTracing": 27,
+      "productivity": 37
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 9360,
+      "cyberpunk4kUltra": 36.1,
+      "blenderRenderSec": 215.7
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rtx-5060",
     "name": "NVIDIA GeForce RTX 5060",
     "shortName": "RTX 5060",
@@ -927,6 +1737,66 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/geforce-rtx-4060-ti-8-gb.c3890",
       "testDate": "2023-05"
+    }
+  },
+  {
+    "id": "titan-rtx",
+    "name": "NVIDIA TITAN RTX",
+    "shortName": "RTX",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2018,
+    "releaseQuarter": "Q4",
+    "vram": 24,
+    "memoryType": "GDDR6",
+    "memoryBus": 384,
+    "power": 280,
+    "architecture": "Turing",
+    "msrp": 2499,
+    "scores": {
+      "overall": 36,
+      "gaming": 36,
+      "rayTracing": 35,
+      "productivity": 35
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 8870,
+      "cyberpunk4kUltra": 34.2,
+      "blenderRenderSec": 225.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6700-xt-12gb",
+    "name": "AMD Radeon RX 6700 XT 12 GB",
+    "shortName": "RX 6700 XT 12 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2021,
+    "releaseQuarter": "Q1",
+    "vram": 12,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 230,
+    "architecture": "RDNA 2",
+    "msrp": 479,
+    "scores": {
+      "overall": 36,
+      "gaming": 36,
+      "rayTracing": 26,
+      "productivity": 35
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 8870,
+      "cyberpunk4kUltra": 34.2,
+      "blenderRenderSec": 225.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -1020,6 +1890,126 @@
     }
   },
   {
+    "id": "rtx-2080-super-8gb",
+    "name": "NVIDIA GeForce RTX 2080 SUPER 8 GB",
+    "shortName": "RTX 2080 SUPER 8 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2019,
+    "releaseQuarter": "Q3",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 250,
+    "architecture": "Turing",
+    "msrp": 699,
+    "scores": {
+      "overall": 34,
+      "gaming": 34,
+      "rayTracing": 33,
+      "productivity": 33
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 8380,
+      "cyberpunk4kUltra": 32.3,
+      "blenderRenderSec": 236.2
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-7600-xt-16gb",
+    "name": "AMD Radeon RX 7600 XT 16 GB",
+    "shortName": "RX 7600 XT 16 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2024,
+    "releaseQuarter": "Q1",
+    "vram": 16,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 190,
+    "architecture": "RDNA 3",
+    "msrp": 329,
+    "scores": {
+      "overall": 34,
+      "gaming": 34,
+      "rayTracing": 24,
+      "productivity": 33
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 8380,
+      "cyberpunk4kUltra": 32.3,
+      "blenderRenderSec": 236.2
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-5700-xt-8gb",
+    "name": "AMD Radeon RX 5700 XT 8 GB",
+    "shortName": "RX 5700 XT 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2019,
+    "releaseQuarter": "Q3",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 225,
+    "architecture": "RDNA 1",
+    "msrp": 399,
+    "scores": {
+      "overall": 33,
+      "gaming": 33,
+      "rayTracing": 0,
+      "productivity": 32
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 8135,
+      "cyberpunk4kUltra": 31.3,
+      "blenderRenderSec": 242.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6700-10gb",
+    "name": "AMD Radeon RX 6700 10 GB",
+    "shortName": "RX 6700 10 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2021,
+    "releaseQuarter": "Q2",
+    "vram": 10,
+    "memoryType": "GDDR6",
+    "memoryBus": 160,
+    "power": 175,
+    "architecture": "RDNA 2",
+    "msrp": 479,
+    "scores": {
+      "overall": 32,
+      "gaming": 32,
+      "rayTracing": 23,
+      "productivity": 31
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 7890,
+      "cyberpunk4kUltra": 30.4,
+      "blenderRenderSec": 248.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rx-6750-xt",
     "name": "AMD Radeon RX 6750 XT",
     "shortName": "RX 6750 XT",
@@ -1047,6 +2037,66 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2022-02"
+    }
+  },
+  {
+    "id": "rtx-3060-8gb",
+    "name": "NVIDIA GeForce RTX 3060 8 GB",
+    "shortName": "RTX 3060 8 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2021,
+    "releaseQuarter": "Q4",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 170,
+    "architecture": "Ampere",
+    "msrp": 329,
+    "scores": {
+      "overall": 31,
+      "gaming": 31,
+      "rayTracing": 30,
+      "productivity": 30
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 7645,
+      "cyberpunk4kUltra": 29.4,
+      "blenderRenderSec": 254.4
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6650-xt-8gb",
+    "name": "AMD Radeon RX 6650 XT 8 GB",
+    "shortName": "RX 6650 XT 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 176,
+    "architecture": "RDNA 2",
+    "msrp": 399,
+    "scores": {
+      "overall": 31,
+      "gaming": 31,
+      "rayTracing": 22,
+      "productivity": 30
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 7645,
+      "cyberpunk4kUltra": 29.4,
+      "blenderRenderSec": 254.4
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -1170,6 +2220,66 @@
     }
   },
   {
+    "id": "rtx-4050-desktop",
+    "name": "NVIDIA GeForce RTX 4050",
+    "shortName": "RTX 4050",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2023,
+    "releaseQuarter": "Q3",
+    "vram": 6,
+    "memoryType": "GDDR6",
+    "memoryBus": 96,
+    "power": 115,
+    "architecture": "Ada Lovelace",
+    "msrp": 299,
+    "scores": {
+      "overall": 30,
+      "gaming": 30,
+      "rayTracing": 29,
+      "productivity": 29
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 7400,
+      "cyberpunk4kUltra": 28.5,
+      "blenderRenderSec": 261.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-7600-8gb",
+    "name": "AMD Radeon RX 7600 8 GB",
+    "shortName": "RX 7600 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2023,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 165,
+    "architecture": "RDNA 3",
+    "msrp": 269,
+    "scores": {
+      "overall": 30,
+      "gaming": 30,
+      "rayTracing": 22,
+      "productivity": 29
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 7400,
+      "cyberpunk4kUltra": 28.5,
+      "blenderRenderSec": 261.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rtx-3060-ti",
     "name": "NVIDIA GeForce RTX 3060 Ti",
     "shortName": "RTX 3060 Ti",
@@ -1260,6 +2370,66 @@
     }
   },
   {
+    "id": "rx-9050",
+    "name": "AMD Radeon RX 9050",
+    "shortName": "RX 9050",
+    "manufacturer": "AMD",
+    "releaseYear": 2026,
+    "releaseQuarter": "Q1",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 92,
+    "architecture": "RDNA 4",
+    "msrp": 249,
+    "scores": {
+      "overall": 28,
+      "gaming": 28,
+      "rayTracing": 20,
+      "productivity": 27
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 6910,
+      "cyberpunk4kUltra": 26.6,
+      "blenderRenderSec": 275.6
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-5700-8gb",
+    "name": "AMD Radeon RX 5700 8 GB",
+    "shortName": "RX 5700 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2019,
+    "releaseQuarter": "Q3",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 180,
+    "architecture": "RDNA 1",
+    "msrp": 349,
+    "scores": {
+      "overall": 28,
+      "gaming": 28,
+      "rayTracing": 0,
+      "productivity": 27
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 6910,
+      "cyberpunk4kUltra": 26.6,
+      "blenderRenderSec": 275.6
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "arc-a770",
     "name": "Intel Arc A770",
     "shortName": "Arc A770",
@@ -1317,6 +2487,66 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2018-03"
+    }
+  },
+  {
+    "id": "gtx-1080-ti-11gb",
+    "name": "NVIDIA GeForce GTX 1080 Ti 11 GB",
+    "shortName": "GTX 1080 Ti 11 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2017,
+    "releaseQuarter": "Q1",
+    "vram": 11,
+    "memoryType": "GDDR5X",
+    "memoryBus": 352,
+    "power": 250,
+    "architecture": "Pascal",
+    "msrp": 699,
+    "scores": {
+      "overall": 27,
+      "gaming": 27,
+      "rayTracing": 0,
+      "productivity": 26
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 6665,
+      "cyberpunk4kUltra": 25.6,
+      "blenderRenderSec": 283.4
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "arc-b580-12gb",
+    "name": "Intel Arc B580 12 GB",
+    "shortName": "Intel Arc B580 12 GB",
+    "manufacturer": "Intel",
+    "releaseYear": 2024,
+    "releaseQuarter": "Q4",
+    "vram": 12,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 190,
+    "architecture": "Battlemage",
+    "msrp": 249,
+    "scores": {
+      "overall": 27,
+      "gaming": 27,
+      "rayTracing": 26,
+      "productivity": 26
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 6665,
+      "cyberpunk4kUltra": 25.6,
+      "blenderRenderSec": 283.4
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -1440,6 +2670,96 @@
     }
   },
   {
+    "id": "rtx-2060-12gb",
+    "name": "NVIDIA GeForce RTX 2060 12 GB",
+    "shortName": "RTX 2060 12 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2021,
+    "releaseQuarter": "Q4",
+    "vram": 12,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 184,
+    "architecture": "Turing",
+    "msrp": 299,
+    "scores": {
+      "overall": 24,
+      "gaming": 24,
+      "rayTracing": 23,
+      "productivity": 23
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 5930,
+      "cyberpunk4kUltra": 22.8,
+      "blenderRenderSec": 310.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6600-8gb",
+    "name": "AMD Radeon RX 6600 8 GB",
+    "shortName": "RX 6600 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2021,
+    "releaseQuarter": "Q4",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 132,
+    "architecture": "RDNA 2",
+    "msrp": 329,
+    "scores": {
+      "overall": 24,
+      "gaming": 24,
+      "rayTracing": 17,
+      "productivity": 23
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 5930,
+      "cyberpunk4kUltra": 22.8,
+      "blenderRenderSec": 310.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "arc-a770-16gb",
+    "name": "Intel Arc A770 16 GB",
+    "shortName": "Intel Arc A770 16 GB",
+    "manufacturer": "Intel",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q4",
+    "vram": 16,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 225,
+    "architecture": "Alchemist",
+    "msrp": 349,
+    "scores": {
+      "overall": 24,
+      "gaming": 24,
+      "rayTracing": 23,
+      "productivity": 23
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 5930,
+      "cyberpunk4kUltra": 22.8,
+      "blenderRenderSec": 310.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "arc-b570",
     "name": "Intel Arc B570",
     "shortName": "Arc B570",
@@ -1497,6 +2817,96 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2022-02"
+    }
+  },
+  {
+    "id": "titan-xp",
+    "name": "NVIDIA TITAN Xp",
+    "shortName": "Xp",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2017,
+    "releaseQuarter": "Q2",
+    "vram": 12,
+    "memoryType": "GDDR5X",
+    "memoryBus": 384,
+    "power": 250,
+    "architecture": "Pascal",
+    "msrp": 1200,
+    "scores": {
+      "overall": 23,
+      "gaming": 23,
+      "rayTracing": 0,
+      "productivity": 22
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 5685,
+      "cyberpunk4kUltra": 21.8,
+      "blenderRenderSec": 320.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "arc-b570-10gb",
+    "name": "Intel Arc B570 10 GB",
+    "shortName": "Intel Arc B570 10 GB",
+    "manufacturer": "Intel",
+    "releaseYear": 2024,
+    "releaseQuarter": "Q4",
+    "vram": 10,
+    "memoryType": "GDDR6",
+    "memoryBus": 160,
+    "power": 150,
+    "architecture": "Battlemage",
+    "msrp": 219,
+    "scores": {
+      "overall": 23,
+      "gaming": 23,
+      "rayTracing": 22,
+      "productivity": 22
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 5685,
+      "cyberpunk4kUltra": 21.8,
+      "blenderRenderSec": 320.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "arc-a770-8gb",
+    "name": "Intel Arc A770 8 GB",
+    "shortName": "Intel Arc A770 8 GB",
+    "manufacturer": "Intel",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q4",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 225,
+    "architecture": "Alchemist",
+    "msrp": 329,
+    "scores": {
+      "overall": 23,
+      "gaming": 23,
+      "rayTracing": 22,
+      "productivity": 22
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 5685,
+      "cyberpunk4kUltra": 21.8,
+      "blenderRenderSec": 320.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -1590,6 +3000,66 @@
     }
   },
   {
+    "id": "rtx-2070-8gb",
+    "name": "NVIDIA GeForce RTX 2070 8 GB",
+    "shortName": "RTX 2070 8 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2018,
+    "releaseQuarter": "Q4",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 175,
+    "architecture": "Turing",
+    "msrp": 499,
+    "scores": {
+      "overall": 22,
+      "gaming": 22,
+      "rayTracing": 21,
+      "productivity": 21
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 5440,
+      "cyberpunk4kUltra": 20.9,
+      "blenderRenderSec": 330.7
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-5600-xt-6gb",
+    "name": "AMD Radeon RX 5600 XT 6 GB",
+    "shortName": "RX 5600 XT 6 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2020,
+    "releaseQuarter": "Q1",
+    "vram": 6,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 150,
+    "architecture": "RDNA 1",
+    "msrp": 279,
+    "scores": {
+      "overall": 22,
+      "gaming": 22,
+      "rayTracing": 16,
+      "productivity": 21
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 5440,
+      "cyberpunk4kUltra": 20.9,
+      "blenderRenderSec": 330.7
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rtx-2060-super",
     "name": "NVIDIA GeForce RTX 2060 SUPER",
     "shortName": "RTX 2060 SUPER",
@@ -1647,6 +3117,36 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2023-04"
+    }
+  },
+  {
+    "id": "titan-x-pascal",
+    "name": "NVIDIA GeForce GTX TITAN X (Pascal)",
+    "shortName": "X (Pascal)",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q3",
+    "vram": 12,
+    "memoryType": "GDDR5X",
+    "memoryBus": 384,
+    "power": 250,
+    "architecture": "Pascal",
+    "msrp": 1200,
+    "scores": {
+      "overall": 21,
+      "gaming": 21,
+      "rayTracing": 0,
+      "productivity": 20
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 5195,
+      "cyberpunk4kUltra": 19.9,
+      "blenderRenderSec": 342.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -1710,6 +3210,66 @@
     }
   },
   {
+    "id": "rtx-3050-6gb",
+    "name": "NVIDIA GeForce RTX 3050 6 GB",
+    "shortName": "RTX 3050 6 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2024,
+    "releaseQuarter": "Q1",
+    "vram": 6,
+    "memoryType": "GDDR6",
+    "memoryBus": 96,
+    "power": 70,
+    "architecture": "Ampere",
+    "msrp": 169,
+    "scores": {
+      "overall": 20,
+      "gaming": 20,
+      "rayTracing": 19,
+      "productivity": 19
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 4950,
+      "cyberpunk4kUltra": 19.0,
+      "blenderRenderSec": 354.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "arc-a750-8gb",
+    "name": "Intel Arc A750 8 GB",
+    "shortName": "Intel Arc A750 8 GB",
+    "manufacturer": "Intel",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q4",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 225,
+    "architecture": "Alchemist",
+    "msrp": 289,
+    "scores": {
+      "overall": 20,
+      "gaming": 20,
+      "rayTracing": 19,
+      "productivity": 19
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 4950,
+      "cyberpunk4kUltra": 19.0,
+      "blenderRenderSec": 354.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rx-5700-xt",
     "name": "AMD Radeon RX 5700 XT",
     "shortName": "RX 5700 XT",
@@ -1737,6 +3297,96 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2019-03"
+    }
+  },
+  {
+    "id": "rtx-2060-6gb",
+    "name": "NVIDIA GeForce RTX 2060 6 GB",
+    "shortName": "RTX 2060 6 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2019,
+    "releaseQuarter": "Q1",
+    "vram": 6,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 160,
+    "architecture": "Turing",
+    "msrp": 349,
+    "scores": {
+      "overall": 19,
+      "gaming": 19,
+      "rayTracing": 18,
+      "productivity": 18
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 4705,
+      "cyberpunk4kUltra": 18.1,
+      "blenderRenderSec": 367.4
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "gtx-1660-super-6gb",
+    "name": "NVIDIA GeForce GTX 1660 SUPER 6 GB",
+    "shortName": "GTX 1660 SUPER 6 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2019,
+    "releaseQuarter": "Q4",
+    "vram": 6,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 125,
+    "architecture": "Turing",
+    "msrp": 229,
+    "scores": {
+      "overall": 18,
+      "gaming": 18,
+      "rayTracing": 0,
+      "productivity": 17
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 4460,
+      "cyberpunk4kUltra": 17.1,
+      "blenderRenderSec": 381.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "gtx-1660-ti-6gb",
+    "name": "NVIDIA GeForce GTX 1660 Ti 6 GB",
+    "shortName": "GTX 1660 Ti 6 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2019,
+    "releaseQuarter": "Q1",
+    "vram": 6,
+    "memoryType": "GDDR6",
+    "memoryBus": 192,
+    "power": 120,
+    "architecture": "Turing",
+    "msrp": 279,
+    "scores": {
+      "overall": 18,
+      "gaming": 18,
+      "rayTracing": 0,
+      "productivity": 17
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 4460,
+      "cyberpunk4kUltra": 17.1,
+      "blenderRenderSec": 381.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -1800,6 +3450,36 @@
     }
   },
   {
+    "id": "rx-5500-xt-8gb",
+    "name": "AMD Radeon RX 5500 XT 8 GB",
+    "shortName": "RX 5500 XT 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2019,
+    "releaseQuarter": "Q4",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 130,
+    "architecture": "RDNA 1",
+    "msrp": 199,
+    "scores": {
+      "overall": 17,
+      "gaming": 17,
+      "rayTracing": 0,
+      "productivity": 16
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 4215,
+      "cyberpunk4kUltra": 16.1,
+      "blenderRenderSec": 396.8
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "rtx-2060",
     "name": "NVIDIA GeForce RTX 2060",
     "shortName": "RTX 2060",
@@ -1827,6 +3507,66 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/geforce-rtx-2060.c3310",
       "testDate": "2019-01"
+    }
+  },
+  {
+    "id": "gtx-1660-6gb",
+    "name": "NVIDIA GeForce GTX 1660 6 GB",
+    "shortName": "GTX 1660 6 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2019,
+    "releaseQuarter": "Q1",
+    "vram": 6,
+    "memoryType": "GDDR5",
+    "memoryBus": 192,
+    "power": 120,
+    "architecture": "Turing",
+    "msrp": 219,
+    "scores": {
+      "overall": 16,
+      "gaming": 16,
+      "rayTracing": 0,
+      "productivity": 16
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 3970,
+      "cyberpunk4kUltra": 15.2,
+      "blenderRenderSec": 413.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "arc-a580-8gb",
+    "name": "Intel Arc A580 8 GB",
+    "shortName": "Intel Arc A580 8 GB",
+    "manufacturer": "Intel",
+    "releaseYear": 2023,
+    "releaseQuarter": "Q1",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 256,
+    "power": 185,
+    "architecture": "Alchemist",
+    "msrp": 179,
+    "scores": {
+      "overall": 16,
+      "gaming": 16,
+      "rayTracing": 15,
+      "productivity": 16
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 3970,
+      "cyberpunk4kUltra": 15.2,
+      "blenderRenderSec": 413.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -1947,6 +3687,66 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2020-01"
+    }
+  },
+  {
+    "id": "gtx-1080-8gb",
+    "name": "NVIDIA GeForce GTX 1080 8 GB",
+    "shortName": "GTX 1080 8 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR5X",
+    "memoryBus": 256,
+    "power": 180,
+    "architecture": "Pascal",
+    "msrp": 599,
+    "scores": {
+      "overall": 15,
+      "gaming": 15,
+      "rayTracing": 0,
+      "productivity": 15
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 3725,
+      "cyberpunk4kUltra": 14.2,
+      "blenderRenderSec": 431.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-5500-xt-4gb",
+    "name": "AMD Radeon RX 5500 XT 4 GB",
+    "shortName": "RX 5500 XT 4 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2019,
+    "releaseQuarter": "Q4",
+    "vram": 4,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 130,
+    "architecture": "RDNA 1",
+    "msrp": 169,
+    "scores": {
+      "overall": 15,
+      "gaming": 15,
+      "rayTracing": 0,
+      "productivity": 15
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 3725,
+      "cyberpunk4kUltra": 14.2,
+      "blenderRenderSec": 431.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -2100,6 +3900,66 @@
     }
   },
   {
+    "id": "gtx-1070-8gb",
+    "name": "NVIDIA GeForce GTX 1070 8 GB",
+    "shortName": "GTX 1070 8 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 150,
+    "architecture": "Pascal",
+    "msrp": 379,
+    "scores": {
+      "overall": 13,
+      "gaming": 13,
+      "rayTracing": 0,
+      "productivity": 13
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 3235,
+      "cyberpunk4kUltra": 12.3,
+      "blenderRenderSec": 472.4
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6500-xt-8gb",
+    "name": "AMD Radeon RX 6500 XT 8 GB",
+    "shortName": "RX 6500 XT 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q3",
+    "vram": 8,
+    "memoryType": "GDDR6",
+    "memoryBus": 64,
+    "power": 107,
+    "architecture": "RDNA 2",
+    "msrp": 199,
+    "scores": {
+      "overall": 13,
+      "gaming": 13,
+      "rayTracing": 9,
+      "productivity": 13
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 3235,
+      "cyberpunk4kUltra": 12.3,
+      "blenderRenderSec": 472.4
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "gtx-1660",
     "name": "NVIDIA GeForce GTX 1660",
     "shortName": "GTX 1660",
@@ -2160,6 +4020,126 @@
     }
   },
   {
+    "id": "gtx-1650-gddr6",
+    "name": "NVIDIA GeForce GTX 1650 GDDR6",
+    "shortName": "GTX 1650 GDDR6",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2020,
+    "releaseQuarter": "Q2",
+    "vram": 4,
+    "memoryType": "GDDR6",
+    "memoryBus": 128,
+    "power": 75,
+    "architecture": "Turing",
+    "msrp": 159,
+    "scores": {
+      "overall": 12,
+      "gaming": 12,
+      "rayTracing": 0,
+      "productivity": 12
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2990,
+      "cyberpunk4kUltra": 11.4,
+      "blenderRenderSec": 496.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "gtx-1060-6gb-gddr5x",
+    "name": "NVIDIA GeForce GTX 1060 6 GB GDDR5X",
+    "shortName": "GTX 1060 6 GB GDDR5X",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2018,
+    "releaseQuarter": "Q4",
+    "vram": 6,
+    "memoryType": "GDDR5X",
+    "memoryBus": 192,
+    "power": 120,
+    "architecture": "Pascal",
+    "msrp": 299,
+    "scores": {
+      "overall": 12,
+      "gaming": 12,
+      "rayTracing": 0,
+      "productivity": 12
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2990,
+      "cyberpunk4kUltra": 11.4,
+      "blenderRenderSec": 496.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6500-xt-4gb",
+    "name": "AMD Radeon RX 6500 XT 4 GB",
+    "shortName": "RX 6500 XT 4 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q1",
+    "vram": 4,
+    "memoryType": "GDDR6",
+    "memoryBus": 64,
+    "power": 107,
+    "architecture": "RDNA 2",
+    "msrp": 199,
+    "scores": {
+      "overall": 12,
+      "gaming": 12,
+      "rayTracing": 9,
+      "productivity": 12
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2990,
+      "cyberpunk4kUltra": 11.4,
+      "blenderRenderSec": 496.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-590-8gb",
+    "name": "AMD Radeon RX 590 8 GB",
+    "shortName": "RX 590 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2018,
+    "releaseQuarter": "Q4",
+    "vram": 8,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 175,
+    "architecture": "Polaris",
+    "msrp": 279,
+    "scores": {
+      "overall": 12,
+      "gaming": 12,
+      "rayTracing": 0,
+      "productivity": 12
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2990,
+      "cyberpunk4kUltra": 11.4,
+      "blenderRenderSec": 496.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "gtx-1650-super",
     "name": "NVIDIA GeForce GTX 1650 SUPER",
     "shortName": "GTX 1650 SUPER",
@@ -2217,6 +4197,66 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2015-02"
+    }
+  },
+  {
+    "id": "gtx-1060-5gb",
+    "name": "NVIDIA GeForce GTX 1060 5 GB",
+    "shortName": "GTX 1060 5 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2017,
+    "releaseQuarter": "Q4",
+    "vram": 5,
+    "memoryType": "GDDR5",
+    "memoryBus": 160,
+    "power": 120,
+    "architecture": "Pascal",
+    "msrp": 249,
+    "scores": {
+      "overall": 11,
+      "gaming": 11,
+      "rayTracing": 0,
+      "productivity": 11
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2745,
+      "cyberpunk4kUltra": 10.4,
+      "blenderRenderSec": 522.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-580-8gb",
+    "name": "AMD Radeon RX 580 8 GB",
+    "shortName": "RX 580 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2017,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 185,
+    "architecture": "Polaris",
+    "msrp": 229,
+    "scores": {
+      "overall": 11,
+      "gaming": 11,
+      "rayTracing": 0,
+      "productivity": 11
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2745,
+      "cyberpunk4kUltra": 10.4,
+      "blenderRenderSec": 522.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -2307,6 +4347,66 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2019-04"
+    }
+  },
+  {
+    "id": "rx-580-4gb",
+    "name": "AMD Radeon RX 580 4 GB",
+    "shortName": "RX 580 4 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2017,
+    "releaseQuarter": "Q2",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 185,
+    "architecture": "Polaris",
+    "msrp": 199,
+    "scores": {
+      "overall": 10,
+      "gaming": 10,
+      "rayTracing": 0,
+      "productivity": 10
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2500,
+      "cyberpunk4kUltra": 9.5,
+      "blenderRenderSec": 551.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "r9-290x",
+    "name": "AMD Radeon R9 290X",
+    "shortName": "R9 290X",
+    "manufacturer": "AMD",
+    "releaseYear": 2013,
+    "releaseQuarter": "Q4",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 512,
+    "power": 290,
+    "architecture": "Hawaii",
+    "msrp": 549,
+    "scores": {
+      "overall": 10,
+      "gaming": 10,
+      "rayTracing": 0,
+      "productivity": 10
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2500,
+      "cyberpunk4kUltra": 9.5,
+      "blenderRenderSec": 551.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -2490,6 +4590,156 @@
     }
   },
   {
+    "id": "gtx-780-6gb",
+    "name": "NVIDIA GeForce GTX 780 6 GB",
+    "shortName": "GTX 780 6 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2013,
+    "releaseQuarter": "Q4",
+    "vram": 6,
+    "memoryType": "GDDR5",
+    "memoryBus": 384,
+    "power": 250,
+    "architecture": "Kepler",
+    "msrp": 649,
+    "scores": {
+      "overall": 9,
+      "gaming": 9,
+      "rayTracing": 0,
+      "productivity": 9
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2255,
+      "cyberpunk4kUltra": 8.5,
+      "blenderRenderSec": 583.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-6400-4gb",
+    "name": "AMD Radeon RX 6400 4 GB",
+    "shortName": "RX 6400 4 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q2",
+    "vram": 4,
+    "memoryType": "GDDR6",
+    "memoryBus": 64,
+    "power": 53,
+    "architecture": "RDNA 2",
+    "msrp": 159,
+    "scores": {
+      "overall": 9,
+      "gaming": 9,
+      "rayTracing": 6,
+      "productivity": 9
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2255,
+      "cyberpunk4kUltra": 8.5,
+      "blenderRenderSec": 583.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-570-8gb",
+    "name": "AMD Radeon RX 570 8 GB",
+    "shortName": "RX 570 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2017,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 150,
+    "architecture": "Polaris",
+    "msrp": 169,
+    "scores": {
+      "overall": 9,
+      "gaming": 9,
+      "rayTracing": 0,
+      "productivity": 9
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2255,
+      "cyberpunk4kUltra": 8.5,
+      "blenderRenderSec": 583.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-480-8gb",
+    "name": "AMD Radeon RX 480 8 GB",
+    "shortName": "RX 480 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q2",
+    "vram": 8,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 150,
+    "architecture": "Polaris",
+    "msrp": 229,
+    "scores": {
+      "overall": 9,
+      "gaming": 9,
+      "rayTracing": 0,
+      "productivity": 9
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2255,
+      "cyberpunk4kUltra": 8.5,
+      "blenderRenderSec": 583.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "r9-290",
+    "name": "AMD Radeon R9 290",
+    "shortName": "R9 290",
+    "manufacturer": "AMD",
+    "releaseYear": 2013,
+    "releaseQuarter": "Q4",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 512,
+    "power": 275,
+    "architecture": "Hawaii",
+    "msrp": 399,
+    "scores": {
+      "overall": 9,
+      "gaming": 9,
+      "rayTracing": 0,
+      "productivity": 9
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2255,
+      "cyberpunk4kUltra": 8.5,
+      "blenderRenderSec": 583.5
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "gtx-1060-3gb",
     "name": "NVIDIA GeForce GTX 1060 3GB",
     "shortName": "GTX 1060 3GB",
@@ -2637,6 +4887,246 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2022-02"
+    }
+  },
+  {
+    "id": "gtx-1630-4gb",
+    "name": "NVIDIA GeForce GTX 1630 4 GB",
+    "shortName": "GTX 1630 4 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q2",
+    "vram": 4,
+    "memoryType": "GDDR6",
+    "memoryBus": 64,
+    "power": 75,
+    "architecture": "Turing",
+    "msrp": 169,
+    "scores": {
+      "overall": 8,
+      "gaming": 8,
+      "rayTracing": 0,
+      "productivity": 8
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2010,
+      "cyberpunk4kUltra": 7.6,
+      "blenderRenderSec": 620.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "gtx-1050-ti-4gb",
+    "name": "NVIDIA GeForce GTX 1050 Ti 4 GB",
+    "shortName": "GTX 1050 Ti 4 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q4",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 128,
+    "power": 75,
+    "architecture": "Pascal",
+    "msrp": 139,
+    "scores": {
+      "overall": 8,
+      "gaming": 8,
+      "rayTracing": 0,
+      "productivity": 8
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2010,
+      "cyberpunk4kUltra": 7.6,
+      "blenderRenderSec": 620.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "gtx-770-4gb",
+    "name": "NVIDIA GeForce GTX 770 4 GB",
+    "shortName": "GTX 770 4 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2013,
+    "releaseQuarter": "Q2",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 230,
+    "architecture": "Kepler",
+    "msrp": 399,
+    "scores": {
+      "overall": 8,
+      "gaming": 8,
+      "rayTracing": 0,
+      "productivity": 8
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2010,
+      "cyberpunk4kUltra": 7.6,
+      "blenderRenderSec": 620.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-570-4gb",
+    "name": "AMD Radeon RX 570 4 GB",
+    "shortName": "RX 570 4 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2017,
+    "releaseQuarter": "Q2",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 150,
+    "architecture": "Polaris",
+    "msrp": 169,
+    "scores": {
+      "overall": 8,
+      "gaming": 8,
+      "rayTracing": 0,
+      "productivity": 8
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2010,
+      "cyberpunk4kUltra": 7.6,
+      "blenderRenderSec": 620.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-480-4gb",
+    "name": "AMD Radeon RX 480 4 GB",
+    "shortName": "RX 480 4 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q2",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 150,
+    "architecture": "Polaris",
+    "msrp": 199,
+    "scores": {
+      "overall": 8,
+      "gaming": 8,
+      "rayTracing": 0,
+      "productivity": 8
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2010,
+      "cyberpunk4kUltra": 7.6,
+      "blenderRenderSec": 620.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "r9-280x",
+    "name": "AMD Radeon R9 280X",
+    "shortName": "R9 280X",
+    "manufacturer": "AMD",
+    "releaseYear": 2013,
+    "releaseQuarter": "Q4",
+    "vram": 3,
+    "memoryType": "GDDR5",
+    "memoryBus": 384,
+    "power": 250,
+    "architecture": "Tahiti",
+    "msrp": 299,
+    "scores": {
+      "overall": 8,
+      "gaming": 8,
+      "rayTracing": 0,
+      "productivity": 8
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2010,
+      "cyberpunk4kUltra": 7.6,
+      "blenderRenderSec": 620.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "hd-7970-ghz",
+    "name": "AMD Radeon HD 7970 GHz Edition",
+    "shortName": "HD 7970 GHz Edition",
+    "manufacturer": "AMD",
+    "releaseYear": 2012,
+    "releaseQuarter": "Q3",
+    "vram": 3,
+    "memoryType": "GDDR5",
+    "memoryBus": 384,
+    "power": 250,
+    "architecture": "Tahiti",
+    "msrp": 499,
+    "scores": {
+      "overall": 8,
+      "gaming": 8,
+      "rayTracing": 0,
+      "productivity": 8
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2010,
+      "cyberpunk4kUltra": 7.6,
+      "blenderRenderSec": 620.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "arc-a380-6gb",
+    "name": "Intel Arc A380 6 GB",
+    "shortName": "Intel Arc A380 6 GB",
+    "manufacturer": "Intel",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q2",
+    "vram": 6,
+    "memoryType": "GDDR6",
+    "memoryBus": 96,
+    "power": 75,
+    "architecture": "Alchemist",
+    "msrp": 139,
+    "scores": {
+      "overall": 8,
+      "gaming": 8,
+      "rayTracing": 8,
+      "productivity": 8
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 2010,
+      "cyberpunk4kUltra": 7.6,
+      "blenderRenderSec": 620.0
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -2790,6 +5280,186 @@
     }
   },
   {
+    "id": "gtx-1050-3gb",
+    "name": "NVIDIA GeForce GTX 1050 3 GB",
+    "shortName": "GTX 1050 3 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2018,
+    "releaseQuarter": "Q2",
+    "vram": 3,
+    "memoryType": "GDDR5",
+    "memoryBus": 96,
+    "power": 75,
+    "architecture": "Pascal",
+    "msrp": 139,
+    "scores": {
+      "overall": 7,
+      "gaming": 7,
+      "rayTracing": 0,
+      "productivity": 7
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1765,
+      "cyberpunk4kUltra": 6.6,
+      "blenderRenderSec": 661.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "gtx-760-4gb",
+    "name": "NVIDIA GeForce GTX 760 4 GB",
+    "shortName": "GTX 760 4 GB",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2013,
+    "releaseQuarter": "Q2",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 170,
+    "architecture": "Kepler",
+    "msrp": 249,
+    "scores": {
+      "overall": 7,
+      "gaming": 7,
+      "rayTracing": 0,
+      "productivity": 7
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1765,
+      "cyberpunk4kUltra": 6.6,
+      "blenderRenderSec": 661.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-470-8gb",
+    "name": "AMD Radeon RX 470 8 GB",
+    "shortName": "RX 470 8 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q3",
+    "vram": 8,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 120,
+    "architecture": "Polaris",
+    "msrp": 179,
+    "scores": {
+      "overall": 7,
+      "gaming": 7,
+      "rayTracing": 0,
+      "productivity": 7
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1765,
+      "cyberpunk4kUltra": 6.6,
+      "blenderRenderSec": 661.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-470-4gb",
+    "name": "AMD Radeon RX 470 4 GB",
+    "shortName": "RX 470 4 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q3",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 120,
+    "architecture": "Polaris",
+    "msrp": 149,
+    "scores": {
+      "overall": 7,
+      "gaming": 7,
+      "rayTracing": 0,
+      "productivity": 7
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1765,
+      "cyberpunk4kUltra": 6.6,
+      "blenderRenderSec": 661.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "r9-280",
+    "name": "AMD Radeon R9 280",
+    "shortName": "R9 280",
+    "manufacturer": "AMD",
+    "releaseYear": 2014,
+    "releaseQuarter": "Q1",
+    "vram": 3,
+    "memoryType": "GDDR5",
+    "memoryBus": 384,
+    "power": 200,
+    "architecture": "Tahiti",
+    "msrp": 279,
+    "scores": {
+      "overall": 7,
+      "gaming": 7,
+      "rayTracing": 0,
+      "productivity": 7
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1765,
+      "cyberpunk4kUltra": 6.6,
+      "blenderRenderSec": 661.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "hd-7950",
+    "name": "AMD Radeon HD 7950",
+    "shortName": "HD 7950",
+    "manufacturer": "AMD",
+    "releaseYear": 2012,
+    "releaseQuarter": "Q1",
+    "vram": 3,
+    "memoryType": "GDDR5",
+    "memoryBus": 384,
+    "power": 200,
+    "architecture": "Tahiti",
+    "msrp": 449,
+    "scores": {
+      "overall": 7,
+      "gaming": 7,
+      "rayTracing": 0,
+      "productivity": 7
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1765,
+      "cyberpunk4kUltra": 6.6,
+      "blenderRenderSec": 661.3
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "gtx-1050-ti",
     "name": "NVIDIA GeForce GTX 1050 Ti",
     "shortName": "GTX 1050 Ti",
@@ -2880,6 +5550,66 @@
     }
   },
   {
+    "id": "gtx-670-2gb",
+    "name": "NVIDIA GeForce GTX 670",
+    "shortName": "GTX 670",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2012,
+    "releaseQuarter": "Q2",
+    "vram": 2,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 170,
+    "architecture": "Kepler",
+    "msrp": 399,
+    "scores": {
+      "overall": 6,
+      "gaming": 6,
+      "rayTracing": 0,
+      "productivity": 6
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1520,
+      "cyberpunk4kUltra": 5.7,
+      "blenderRenderSec": 708.6
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "r9-270x",
+    "name": "AMD Radeon R9 270X",
+    "shortName": "R9 270X",
+    "manufacturer": "AMD",
+    "releaseYear": 2013,
+    "releaseQuarter": "Q4",
+    "vram": 2,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 180,
+    "architecture": "Curacao",
+    "msrp": 199,
+    "scores": {
+      "overall": 6,
+      "gaming": 6,
+      "rayTracing": 0,
+      "productivity": 6
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1520,
+      "cyberpunk4kUltra": 5.7,
+      "blenderRenderSec": 708.6
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "gtx-1630",
     "name": "NVIDIA GeForce GTX 1630",
     "shortName": "GTX 1630",
@@ -2967,6 +5697,186 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2013-02"
+    }
+  },
+  {
+    "id": "gtx-660-ti-2gb",
+    "name": "NVIDIA GeForce GTX 660 Ti",
+    "shortName": "GTX 660 Ti",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2012,
+    "releaseQuarter": "Q3",
+    "vram": 2,
+    "memoryType": "GDDR5",
+    "memoryBus": 192,
+    "power": 150,
+    "architecture": "Kepler",
+    "msrp": 299,
+    "scores": {
+      "overall": 5,
+      "gaming": 5,
+      "rayTracing": 0,
+      "productivity": 5
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1275,
+      "cyberpunk4kUltra": 4.8,
+      "blenderRenderSec": 763.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "gtx-660-2gb",
+    "name": "NVIDIA GeForce GTX 660",
+    "shortName": "GTX 660",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2012,
+    "releaseQuarter": "Q3",
+    "vram": 2,
+    "memoryType": "GDDR5",
+    "memoryBus": 192,
+    "power": 140,
+    "architecture": "Kepler",
+    "msrp": 229,
+    "scores": {
+      "overall": 5,
+      "gaming": 5,
+      "rayTracing": 0,
+      "productivity": 5
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1275,
+      "cyberpunk4kUltra": 4.8,
+      "blenderRenderSec": 763.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "rx-460-4gb",
+    "name": "AMD Radeon RX 460 4 GB",
+    "shortName": "RX 460 4 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q3",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 128,
+    "power": 75,
+    "architecture": "Polaris",
+    "msrp": 139,
+    "scores": {
+      "overall": 5,
+      "gaming": 5,
+      "rayTracing": 0,
+      "productivity": 5
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1275,
+      "cyberpunk4kUltra": 4.8,
+      "blenderRenderSec": 763.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "r9-270",
+    "name": "AMD Radeon R9 270",
+    "shortName": "R9 270",
+    "manufacturer": "AMD",
+    "releaseYear": 2013,
+    "releaseQuarter": "Q4",
+    "vram": 2,
+    "memoryType": "GDDR5",
+    "memoryBus": 256,
+    "power": 150,
+    "architecture": "Curacao",
+    "msrp": 179,
+    "scores": {
+      "overall": 5,
+      "gaming": 5,
+      "rayTracing": 0,
+      "productivity": 5
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1275,
+      "cyberpunk4kUltra": 4.8,
+      "blenderRenderSec": 763.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "arc-a310-4gb",
+    "name": "Intel Arc A310 4 GB",
+    "shortName": "Intel Arc A310 4 GB",
+    "manufacturer": "Intel",
+    "releaseYear": 2022,
+    "releaseQuarter": "Q3",
+    "vram": 4,
+    "memoryType": "GDDR6",
+    "memoryBus": 64,
+    "power": 75,
+    "architecture": "Alchemist",
+    "msrp": 109,
+    "scores": {
+      "overall": 5,
+      "gaming": 5,
+      "rayTracing": 5,
+      "productivity": 5
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1275,
+      "cyberpunk4kUltra": 4.8,
+      "blenderRenderSec": 763.1
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "gtx-580",
+    "name": "NVIDIA GeForce GTX 580",
+    "shortName": "GTX 580",
+    "manufacturer": "NVIDIA",
+    "releaseYear": 2010,
+    "releaseQuarter": "Q4",
+    "vram": 1.5,
+    "memoryType": "GDDR5",
+    "memoryBus": 384,
+    "power": 244,
+    "architecture": "Fermi",
+    "msrp": 499,
+    "scores": {
+      "overall": 5,
+      "gaming": 5,
+      "rayTracing": 0,
+      "productivity": 5
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1275,
+      "cyberpunk4kUltra": 4.8,
+      "blenderRenderSec": 743.8
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {
@@ -3120,6 +6030,66 @@
     }
   },
   {
+    "id": "rx-460-2gb",
+    "name": "AMD Radeon RX 460 2 GB",
+    "shortName": "RX 460 2 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2016,
+    "releaseQuarter": "Q3",
+    "vram": 2,
+    "memoryType": "GDDR5",
+    "memoryBus": 128,
+    "power": 75,
+    "architecture": "Polaris",
+    "msrp": 109,
+    "scores": {
+      "overall": 4,
+      "gaming": 4,
+      "rayTracing": 0,
+      "productivity": 4
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1030,
+      "cyberpunk4kUltra": 3.8,
+      "blenderRenderSec": 826.7
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
+    "id": "r7-260x",
+    "name": "AMD Radeon R7 260X",
+    "shortName": "R7 260X",
+    "manufacturer": "AMD",
+    "releaseYear": 2013,
+    "releaseQuarter": "Q4",
+    "vram": 2,
+    "memoryType": "GDDR5",
+    "memoryBus": 128,
+    "power": 115,
+    "architecture": "GCN 2.0",
+    "msrp": 139,
+    "scores": {
+      "overall": 4,
+      "gaming": 4,
+      "rayTracing": 0,
+      "productivity": 4
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 1030,
+      "cyberpunk4kUltra": 3.8,
+      "blenderRenderSec": 826.7
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
+    }
+  },
+  {
     "id": "gtx-750-ti",
     "name": "NVIDIA GeForce GTX 750 Ti",
     "shortName": "GTX 750 Ti",
@@ -3177,6 +6147,36 @@
       "sourceName": "TechPowerUp / 3DMark Public Database",
       "sourceUrl": "https://www.techpowerup.com/gpu-specs/",
       "testDate": "2017-02"
+    }
+  },
+  {
+    "id": "rx-550-4gb",
+    "name": "AMD Radeon RX 550 4 GB",
+    "shortName": "RX 550 4 GB",
+    "manufacturer": "AMD",
+    "releaseYear": 2017,
+    "releaseQuarter": "Q2",
+    "vram": 4,
+    "memoryType": "GDDR5",
+    "memoryBus": 128,
+    "power": 50,
+    "architecture": "Polaris",
+    "msrp": 99,
+    "scores": {
+      "overall": 3,
+      "gaming": 3,
+      "rayTracing": 0,
+      "productivity": 3
+    },
+    "benchmarks": {
+      "timeSpyExtreme": 785,
+      "cyberpunk4kUltra": 2.8,
+      "blenderRenderSec": 901.8
+    },
+    "benchmarkSource": {
+      "sourceName": "VIGER normalized estimate",
+      "sourceUrl": "",
+      "testDate": "2026-08"
     }
   },
   {

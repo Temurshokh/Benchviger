@@ -110,5 +110,53 @@
     "scores": {
       "overall": 82
     }
+  },
+  {
+    "id": "corsair-hx1500i",
+    "name": "Corsair HX1500i 1500W",
+    "shortName": "HX1500i",
+    "manufacturer": "Corsair",
+    "wattage": 1500,
+    "efficiency": "80 PLUS Platinum",
+    "atxVersion": "ATX 3.0",
+    "modularity": "Full Modular",
+    "protections": "OVP, OCP, OPP, SCP, OTP, UVP",
+    "msrp": 399,
+    "score": 98,
+    "scores": {
+      "overall": 98
+    }
+  },
+  {
+    "id": "seasonic-vertex-px-1200",
+    "name": "Seasonic Vertex PX-1200 1200W",
+    "shortName": "Vertex PX-1200",
+    "manufacturer": "Seasonic",
+    "wattage": 1200,
+    "efficiency": "80 PLUS Platinum",
+    "atxVersion": "ATX 3.0",
+    "modularity": "Full Modular",
+    "protections": "OVP, OCP, OPP, SCP, OTP, UVP",
+    "msrp": 349,
+    "score": 97,
+    "scores": {
+      "overall": 97
+    }
+  },
+  {
+    "id": "be-quiet-dark-power-pro-13-1300w",
+    "name": "be quiet! Dark Power Pro 13 1300W",
+    "shortName": "Dark Power Pro 13 1300W",
+    "manufacturer": "be quiet!",
+    "wattage": 1300,
+    "efficiency": "80 PLUS Titanium",
+    "atxVersion": "ATX 3.0",
+    "modularity": "Full Modular",
+    "protections": "OVP, OCP, OPP, SCP, OTP, UVP",
+    "msrp": 459,
+    "score": 99,
+    "scores": {
+      "overall": 99
+    }
   }
 ]

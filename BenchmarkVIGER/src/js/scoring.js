@@ -11,7 +11,7 @@ const FLAGSHIP_SCORES = {
 };
 
 /**
- * Calculates Performance Score (0 - 100) based on benchmark metrics
+ * Calculates Performance Score (0 - 1100) based on benchmark metrics.
  */
 export function calculatePerformanceScore(benchmarks) {
   if (!benchmarks) return 0;
@@ -28,7 +28,7 @@ export function calculatePerformanceScore(benchmarks) {
   const composite = (tsNorm * 0.50) + (cpNorm * 0.35) + (blenderNorm * 0.15);
   
   // Scaled 0 to 100
-  const score = Math.round(Math.min(Math.max(composite * 100, 1), 100));
+  const score = Math.round(Math.min(Math.max(composite * 100, 1), 1100));
   return score;
 }
 
@@ -83,6 +83,7 @@ export function calculateValueRating(score, msrp) {
 export function getScoreBadgeColorClass(score) {
   if (score >= 75) return 'badge-ultra';
   if (score >= 50) return 'badge-high';
-  if (score >= 25) return 'badge-mid';
+  if (score >= 15) return 'badge-mid';
+  if (score >= 5) return 'badge-neutral';
   return 'badge-entry';
 }

@@ -1,6 +1,6 @@
 {
   "appId": "com.hardware.benchmarkdb",
-  "appName": "Hardware Benchmark DB",
+  "appName": "Benchly",
   "webDir": "dist",
   "bundledWebRuntime": false,
   "server": {

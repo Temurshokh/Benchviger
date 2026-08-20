@@ -1,14 +1,31 @@
 import { db } from './database.js';
+import { App as CapacitorApp } from '@capacitor/app';
 import { filterEngine } from './filters.js';
 import { comparisonManager } from './comparison.js';
 import { Router } from './router.js';
+import { loadDeviceImageGallery } from './imageGallery.js';
 import { 
   renderHardwareCard, 
   renderGpuDetails, 
   renderCpuDetails, 
+  renderPhoneDetails,
   renderComparisonPage, 
   renderComingSoon 
+  ,renderComponentDetails
 } from './ui.js';
+
+function readStorageValue(key, fallback) {
+  try {
+    return localStorage.getItem(key) || fallback;
+  } catch (error) {
+    console.warn(`Unable to read localStorage key "${key}"`, error);
+    return fallback;
+  }
+}
+
+function readStorageBoolean(key, fallback = false) {
+  return readStorageValue(key, fallback ? 'on' : 'off') === 'on';
+}
 
 class App {
   constructor() {
@@ -20,15 +37,39 @@ class App {
     this.currentCategory = 'gpu';
     
     // Apply saved theme
-    const savedTheme = localStorage.getItem('benchviger_theme') || 'dark';
+    const savedTheme = readStorageValue('benchly_theme', 'dark');
     if (savedTheme === 'light') {
       document.body.classList.add('light-theme');
     } else {
       document.body.classList.remove('light-theme');
     }
     
-    this.initRouter();
     this.bindGlobalEvents();
+  }
+
+  async initialize() {
+    await db.loadCategory('gpu');
+    await this.bindAndroidBackButton();
+    this.initRouter();
+  }
+
+  async bindAndroidBackButton() {
+    await CapacitorApp.addListener('backButton', () => {
+      const hash = window.location.hash || '#/gpu';
+      if (hash === '#/gpu') {
+        CapacitorApp.exitApp();
+        return;
+      }
+
+      if (hash.startsWith('#/gpu/')) {
+        window.location.hash = '#/gpu';
+      } else if (hash.startsWith('#/category/')) {
+        const category = hash.split('/')[2];
+        window.location.hash = `#/category/${category || 'gpu'}`;
+      } else {
+        window.location.hash = '#/gpu';
+      }
+    });
   }
 
   initRouter() {
@@ -60,20 +101,23 @@ class App {
           this.renderPhoneListPage();
         }
       },
-      'ram': () => {
+      'ram': (id) => {
         this.currentCategory = 'ram';
         comparisonManager.setCategory('ram');
-        this.renderRamListPage();
+        if (id) this.renderComponentDetailPage('ram', id);
+        else this.renderRamListPage();
       },
-      'ssd': () => {
+      'ssd': (id) => {
         this.currentCategory = 'ssd';
         comparisonManager.setCategory('ssd');
-        this.renderSsdListPage();
+        if (id) this.renderComponentDetailPage('ssd', id);
+        else this.renderSsdListPage();
       },
-      'psu': () => {
+      'psu': (id) => {
         this.currentCategory = 'psu';
         comparisonManager.setCategory('psu');
-        this.renderPsuListPage();
+        if (id) this.renderComponentDetailPage('psu', id);
+        else this.renderPsuListPage();
       },
       'settings': () => this.renderSettingsPage(),
       'compare': () => this.renderComparePage(),
@@ -81,7 +125,8 @@ class App {
         if (['gpu', 'cpu', 'phones', 'ram', 'ssd', 'psu'].includes(cat)) {
           this.currentCategory = cat;
           comparisonManager.setCategory(cat);
-          if (cat === 'gpu') this.renderGpuListPage();
+          if (id && ['ram', 'ssd', 'psu'].includes(cat)) this.renderComponentDetailPage(cat, id);
+          else if (cat === 'gpu') this.renderGpuListPage();
           else if (cat === 'cpu') this.renderCpuListPage();
           else if (cat === 'phones') this.renderPhoneListPage();
           else if (cat === 'ram') this.renderRamListPage();
@@ -92,9 +137,38 @@ class App {
           this.renderCategoryPage(cat);
         }
       }
-    });
+    }, { onError: (error) => this.renderError(error) });
 
     this.router.init();
+  }
+
+  async mountImageGallery(item, category) {
+    if (!readStorageBoolean('benchly_online_photos')) return;
+
+    const gallery = document.createElement('section');
+    gallery.className = 'device-image-gallery chart-card';
+    gallery.setAttribute('aria-live', 'polite');
+    const detailRoot = this.appElement.firstElementChild || this.appElement;
+    detailRoot.insertBefore(gallery, detailRoot.children[1] || null);
+    await loadDeviceImageGallery(gallery, item, category);
+  }
+
+  renderError(error) {
+    console.error('Benchly failed to render the current route', error);
+    if (!this.appElement) return;
+
+    const message = error instanceof Error ? error.message : 'Unknown application error';
+    this.appElement.innerHTML = `
+      <div class="container" style="padding-top:32px; text-align:center;">
+        <h2>Benchly could not load this page</h2>
+        <p style="color:var(--text-muted);">${message}</p>
+        <button id="retry-app-btn" class="compare-btn-primary" type="button">Retry</button>
+      </div>
+    `;
+    document.getElementById('retry-app-btn')?.addEventListener('click', () => {
+      this.appElement.innerHTML = '';
+      this.router?.handleRoute();
+    });
   }
 
   updateCompareBadge() {
@@ -155,7 +229,7 @@ class App {
           </select>
 
           <select id="filter-sort" class="select-input">
-            <option value="score-desc">Score ↓</option>
+            <option value="popularity-desc">Popularity ↓</option>
             <option value="score-asc">Score ↑</option>
             <option value="vram-desc">VRAM ↓</option>
             <option value="vram-asc">VRAM ↑</option>
@@ -222,7 +296,7 @@ class App {
           </select>
 
           <select id="filter-sort" class="select-input">
-            <option value="score-desc">Score ↓</option>
+            <option value="popularity-desc">Popularity ↓</option>
             <option value="score-asc">Score ↑</option>
             <option value="cores-desc">Cores ↓</option>
             <option value="year-desc">Year ↓</option>
@@ -357,6 +431,7 @@ class App {
     this.appElement.innerHTML = renderGpuDetails(item);
     this.bindCompareButtons('gpu');
     this.updateCompareBadge();
+    this.mountImageGallery(item, 'gpu');
   }
 
   async renderCpuDetailPage(id) {
@@ -376,6 +451,7 @@ class App {
     this.appElement.innerHTML = renderCpuDetails(item);
     this.bindCompareButtons('cpu');
     this.updateCompareBadge();
+    this.mountImageGallery(item, 'cpu');
   }
 
   async renderPhoneListPage() {
@@ -433,7 +509,7 @@ class App {
           </select>
 
           <select id="filter-sort" class="select-input">
-            <option value="score-desc">Score ↓</option>
+            <option value="popularity-desc">Popularity ↓</option>
             <option value="score-asc">Score ↑</option>
             <option value="vram-desc">RAM ↓</option>
             <option value="year-desc">Year ↓</option>
@@ -469,10 +545,24 @@ class App {
       return;
     }
 
-    const { renderPhoneDetails } = await import('./ui.js');
     this.appElement.innerHTML = renderPhoneDetails(item);
     this.bindCompareButtons('phones');
     this.updateCompareBadge();
+    this.mountImageGallery(item, 'phones');
+  }
+
+  async renderComponentDetailPage(category, id) {
+    this.updateActiveNav(category);
+    const item = await db.getItemById(category, id);
+    if (!item) {
+      this.renderError(new Error(`${category.toUpperCase()} device not found`));
+      return;
+    }
+
+    this.appElement.innerHTML = renderComponentDetails(item, category);
+    this.bindCompareButtons(category);
+    this.updateCompareBadge();
+    this.mountImageGallery(item, category);
   }
 
   async renderRamListPage() {
@@ -606,6 +696,7 @@ class App {
       db.loadCategory('cpu'),
       db.loadCategory('gpu')
     ]);
+    this.psuCalculatorData = { psus, cpus, gpus };
 
     this.appElement.innerHTML = `
       <div class="container">
@@ -622,21 +713,23 @@ class App {
           <div class="chart-header">⚡ PC Power Compatibility Checker</div>
           <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-top: 10px;">
             <div>
-              <label style="font-size:0.75rem; color:var(--text-muted);">Select CPU</label>
-              <select id="pc-cpu-select" class="select-input" style="width:100%;">
-                ${cpus.slice(0, 30).map(c => `<option value="${c.tdp || 65}">${c.shortName || c.name} (${c.tdp || 65}W)</option>`).join('')}
-              </select>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Search CPU</label>
+              <input id="pc-cpu-select" class="search-input" style="width:100%; padding-left:12px;" list="pc-cpu-options" value="${cpus[0]?.id || ''}" placeholder="Search all CPUs">
+              <datalist id="pc-cpu-options">
+                ${cpus.map(c => `<option value="${c.id}">${c.shortName || c.name} (${c.tdp || 65}W)</option>`).join('')}
+              </datalist>
             </div>
             <div>
-              <label style="font-size:0.75rem; color:var(--text-muted);">Select GPU</label>
-              <select id="pc-gpu-select" class="select-input" style="width:100%;">
-                ${gpus.slice(0, 30).map(g => `<option value="${g.power || 200}">${g.shortName || g.name} (${g.power || 200}W)</option>`).join('')}
-              </select>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Search GPU</label>
+              <input id="pc-gpu-select" class="search-input" style="width:100%; padding-left:12px;" list="pc-gpu-options" value="${gpus[0]?.id || ''}" placeholder="Search all GPUs">
+              <datalist id="pc-gpu-options">
+                ${gpus.map(g => `<option value="${g.id}">${g.shortName || g.name} (${g.power || 200}W)</option>`).join('')}
+              </datalist>
             </div>
             <div>
               <label style="font-size:0.75rem; color:var(--text-muted);">Select PSU</label>
               <select id="pc-psu-select" class="select-input" style="width:100%;">
-                ${psus.map(p => `<option value="${p.wattage}">${p.shortName || p.name} (${p.wattage}W)</option>`).join('')}
+                ${psus.map(p => `<option value="${p.id}">${p.shortName || p.name} (${p.wattage}W)</option>`).join('')}
               </select>
             </div>
           </div>
@@ -669,18 +762,40 @@ class App {
 
     const updateCheck = () => {
       if (!resEl) return;
-      const cpuPower = parseInt(cpuEl?.value || 105, 10);
-      const gpuPower = parseInt(gpuEl?.value || 250, 10);
-      const psuWattage = parseInt(psuEl?.value || 650, 10);
+      const cpu = this.psuCalculatorData.cpus.find(item => item.id === cpuEl?.value);
+      const gpu = this.psuCalculatorData.gpus.find(item => item.id === gpuEl?.value);
+      const selectedPsu = this.psuCalculatorData.psus.find(item => item.id === psuEl?.value);
 
-      const systemEst = cpuPower + gpuPower + 80; // 80W overhead for motherboard, fans, RAM, SSD
+      if (!cpu || !gpu || !selectedPsu) {
+        resEl.innerHTML = '<span style="color:var(--text-muted);">Choose a CPU, GPU, and PSU from the local database.</span>';
+        return;
+      }
+
+      const cpuPower = Number(cpu.tdp) || 65;
+      const gpuPower = Number(gpu.power) || 200;
+      const systemEst = cpuPower + gpuPower + 120;
       const recommended = Math.ceil((systemEst * 1.3) / 50) * 50;
+      const suitablePsus = this.psuCalculatorData.psus
+        .filter(psu => Number(psu.wattage) >= recommended)
+        .sort((a, b) => {
+          const wattageDelta = Number(a.wattage) - Number(b.wattage);
+          const efficiencyRank = (value) => /platinum/i.test(value || '') ? 3 : /gold/i.test(value || '') ? 2 : /silver/i.test(value || '') ? 1 : 0;
+          return wattageDelta || efficiencyRank(b.efficiency) - efficiencyRank(a.efficiency) || (b.scores?.overall || b.score || 0) - (a.scores?.overall || a.score || 0);
+        });
+      const recommendedPsu = suitablePsus[0];
+      const psuWattage = Number(selectedPsu.wattage) || 0;
       const isSuitable = psuWattage >= recommended;
+      const recommendedLabel = recommendedPsu
+        ? `${recommendedPsu.name} (${recommendedPsu.wattage}W, ${recommendedPsu.efficiency || 'standard'})`
+        : 'No PSU in the local database meets this requirement';
 
       resEl.innerHTML = `
         <div style="display:flex; justify-content:space-between; margin-bottom: 6px;">
           <span>Estimated System Power: <strong>${systemEst} W</strong></span>
           <span>Recommended PSU: <strong>${recommended} W+</strong></span>
+        </div>
+        <div style="border-top:1px solid var(--border-color); padding-top:8px; margin-bottom:8px;">
+          <span>Best local match: <strong>${recommendedLabel}</strong></span>
         </div>
         <div style="display:flex; justify-content:space-between; align-items:center; border-top: 1px solid var(--border-color); padding-top: 8px; font-weight: 700;">
           <span>PSU Status:</span>
@@ -691,6 +806,7 @@ class App {
       `;
     };
 
+    [cpuEl, gpuEl, psuEl].forEach(el => el?.addEventListener('input', updateCheck));
     [cpuEl, gpuEl, psuEl].forEach(el => el?.addEventListener('change', updateCheck));
     updateCheck();
   }
@@ -716,7 +832,8 @@ class App {
 
   renderSettingsPage() {
     this.updateActiveNav('settings');
-    const isDark = localStorage.getItem('benchviger_theme') !== 'light';
+    const isDark = readStorageValue('benchly_theme', 'dark') !== 'light';
+    const onlinePhotosEnabled = readStorageBoolean('benchly_online_photos');
 
     this.appElement.innerHTML = `
       <div class="container" style="padding-top: 16px;">
@@ -728,6 +845,19 @@ class App {
             <span>Theme Mode</span>
             <button id="toggle-theme-btn" style="background:var(--bg-input); border:1px solid var(--border-color); color:var(--text-primary); padding:6px 14px; border-radius:6px; font-weight:600; cursor:pointer; transition:all 0.2s;">
               ${isDark ? '☀️ Switch to Light Mode' : '🌙 Switch to Dark Mode'}
+            </button>
+          </div>
+        </div>
+
+        <div class="chart-card" style="margin-bottom: 16px;">
+          <div class="chart-header">Online Features</div>
+          <div class="settings-row">
+            <div>
+              <strong>Online Component Photos</strong>
+              <p class="settings-description">When enabled, detail pages may load matching device images from Wikimedia Commons. Photos are never required for offline use.</p>
+            </div>
+            <button id="toggle-online-photos-btn" class="settings-toggle ${onlinePhotosEnabled ? 'is-on' : ''}" type="button" aria-pressed="${onlinePhotosEnabled}">
+              ${onlinePhotosEnabled ? 'ON' : 'OFF'}
             </button>
           </div>
         </div>
@@ -745,20 +875,33 @@ class App {
         </div>
 
         <div class="chart-card">
-          <div class="chart-header">BenchVIGER Info</div>
+          <div class="chart-header">Benchly Info</div>
           <div style="font-size:0.85rem; color:var(--text-secondary); display:flex; flex-direction:column; gap:6px; margin-top: 6px;">
             <div>Version: <strong>1.5.0-offline</strong></div>
             <div>Mode: <strong>100% Offline Capable (PWA / Android Ready)</strong></div>
-            <div>Databases: <strong>GPU (107), CPU (124), Phones (70), RAM (7), SSD (7), PSU (7)</strong></div>
+            <div>Databases: <strong>GPU (107), CPU (124), Phones (86), RAM (7), SSD (7), PSU (7)</strong></div>
           </div>
+        </div>
+
+        <div style="text-align:center; margin-top:18px; font-size:0.72rem; color:var(--text-muted); letter-spacing:0.04em; opacity:0.85;">
+          by VIGERIX STUDIO
         </div>
       </div>
     `;
 
     document.getElementById('toggle-theme-btn')?.addEventListener('click', () => {
       const newTheme = isDark ? 'light' : 'dark';
-      localStorage.setItem('benchviger_theme', newTheme);
+      localStorage.setItem('benchly_theme', newTheme);
       document.body.classList.toggle('light-theme', newTheme === 'light');
+      this.renderSettingsPage();
+    });
+
+    document.getElementById('toggle-online-photos-btn')?.addEventListener('click', () => {
+      try {
+        localStorage.setItem('benchly_online_photos', onlinePhotosEnabled ? 'off' : 'on');
+      } catch (error) {
+        console.warn('Unable to save online photo preference', error);
+      }
       this.renderSettingsPage();
     });
 
@@ -805,6 +948,13 @@ class App {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  window.app = new App();
+document.addEventListener('DOMContentLoaded', async () => {
+  const app = new App();
+  window.app = app;
+
+  try {
+    await app.initialize();
+  } catch (error) {
+    app.renderError(error);
+  }
 });

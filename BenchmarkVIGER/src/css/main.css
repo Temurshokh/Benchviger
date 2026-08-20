@@ -1,23 +1,23 @@
 :root {
-  --bg-dark: #0b0f19;
-  --bg-card: #131b2e;
-  --bg-card-hover: #1b2640;
-  --bg-input: #172036;
-  --border-color: #233152;
-  --border-active: #3b82f6;
+  --bg-dark: #08090b;
+  --bg-card: #121418;
+  --bg-card-hover: #1b1e24;
+  --bg-input: #101216;
+  --border-color: #2a2e36;
+  --border-active: #2563eb;
 
   --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-secondary: #b7bdc8;
+  --text-muted: #7e8795;
 
-  --accent-nvidia: #76b900;
+  --accent-nvidia: #60a5fa;
   --accent-amd: #ff4747;
-  --accent-intel: #0071c5;
+  --accent-intel: #93c5fd;
 
-  --badge-ultra: #10b981; /* Green 75-100 */
-  --badge-high: #3b82f6;  /* Blue 50-74 */
-  --badge-mid: #f59e0b;   /* Amber 25-49 */
-  --badge-entry: #64748b; /* Slate 0-24 */
+  --badge-ultra: #2563eb;
+  --badge-high: #dc2626;
+  --badge-mid: #eab308;
+  --badge-entry: #525866;
 
   --star-gold: #fbbf24;
 
@@ -26,7 +26,7 @@
   --radius-lg: 16px;
 
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
-  --shadow-glow: 0 4px 20px rgba(59, 130, 246, 0.15);
+  --shadow-glow: 0 4px 20px rgba(37, 99, 235, 0.18);
 
   --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --nav-height: 64px;
@@ -40,11 +40,12 @@
 }
 
 body {
-  background-color: var(--bg-dark);
+  background: radial-gradient(circle at 50% -20%, rgba(37, 99, 235, 0.12), transparent 42%), var(--bg-dark);
   color: var(--text-primary);
   font-family: var(--font-family);
   line-height: 1.5;
-  padding-bottom: calc(var(--nav-height) + 24px);
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: calc(var(--nav-height) + 24px + env(safe-area-inset-bottom));
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -70,7 +71,7 @@ body {
   font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: 0.5px;
-  background: linear-gradient(135deg, #60a5fa, #a855f7);
+  background: linear-gradient(135deg, #ffffff 0%, #60a5fa 55%, #ef4444 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -148,6 +149,7 @@ body {
   white-space: nowrap;
   cursor: pointer;
   transition: all 0.2s ease;
+  min-height: 44px;
 }
 
 .cat-chip.active {
@@ -213,6 +215,7 @@ body {
   outline: none;
   flex: 1;
   min-width: 110px;
+  min-height: 44px;
 }
 
 /* Bottom Navigation Bar (Mobile) */
@@ -221,7 +224,9 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: var(--nav-height);
+  min-height: var(--nav-height);
+  height: calc(var(--nav-height) + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom);
   background: rgba(11, 15, 25, 0.95);
   backdrop-filter: blur(16px);
   border-top: 1px solid var(--border-color);
